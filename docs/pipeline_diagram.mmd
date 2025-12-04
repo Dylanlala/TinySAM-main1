@@ -1,0 +1,91 @@
+flowchart LR
+  %% 全局样式建议：从左到右流向；每条边标注“数据/尺寸/语义”
+
+  %% ====== Stage 1: DINOv2 预训练（教师） ======
+  subgraph S1["Stage 1 · DINOv2 预训练（教师表征）"]
+    I0["原始图像 X\n尺寸: 640×640×3"]
+    TE1["Patch Embedding\n(p=16)"]
+    TE2["ViT Encoder: MHSA + MLP × L 层"]
+    T40["教师特征 T@40×40×D_T\n(若 p=16: 40×40×D_T) \n(若 p=14: ≈46×46×D_T → 插值)"]
+    I0 -->|"贴片分块"| TE1 --> TE2 -->|"tokens → 空间重排/均值映射"| T40
+  end
+
+  %% ====== Stage 2: 特征蒸馏（无标签，用于初始化） ======
+  subgraph S2["Stage 2 · DINOv2→YOLOv11n 特征蒸馏（无标签预训练, 初始化权重）"]
+    S2I["输入图像 X\n640×640×3"]
+    ST1["YOLOv11n Backbone"]
+    ST2["YOLOv11n Neck (PAFPN)"]
+    P4["学生特征 S@P4\n40×40×384 (实测 L12)"]
+    P5["学生特征 S@P5\n20×20×384 (实测 L21)"]
+
+    TA1["空间对齐: T → {40×40,20×20}\n(双线性插值)"]
+    TA2["通道对齐: 1×1 Conv/MLP\nD_T → 384"]
+    T4A["T'@40×40×384"]
+    T5A["T'@20×20×384"]
+
+    LFEAT["特征蒸馏损失 L_feat\n- MSE/Cosine (逐位置)\n- 分层权重: w_P4,w_P5"]
+    LATT["(可选) 注意力迁移 L_att\nA_S vs A_T"]
+    LKL["(可选) Logits 蒸馏 L_kl\nKL(softmax/T)"]
+    LSUM["总损失 L = λ_f·L_feat + λ_a·L_att + λ_k·L_kl\n(此阶段可关闭检测损失 L_det)"]
+
+    S2I --> ST1 --> ST2 --> P4
+    ST2 --> P5
+    T40 -->|"插值到 40×40 / 20×20"| TA1 --> TA2
+    TA2 -->|"对齐到 P4"| T4A
+    TA2 -->|"对齐到 P5"| T5A
+
+    T4A -->|"与 S@P4 对齐"| LFEAT
+    P4  -->|"与 T'@P4 对齐"| LFEAT
+    T5A -->|"与 S@P5 对齐"| LFEAT
+    P5  -->|"与 T'@P5 对齐"| LFEAT
+
+    LFEAT --> LSUM
+    LATT  -. 可选 .-> LSUM
+    LKL   -. 可选 .-> LSUM
+
+    LSUM -->|"反传，仅更新学生 (教师冻结)"| ST1
+    LSUM -->|"反传，仅更新学生 (教师冻结)"| ST2
+
+    OUT_KD["输出: KD 预训练学生权重\n(用于监督微调初始化; 不直接做检测评估)"]
+    LSUM --> OUT_KD
+  end
+
+  %% ====== Stage 3: 监督微调（检测头+全模型） ======
+  subgraph S3["Stage 3 · YOLOv11n 监督微调（有标签, 单类 'polyp'）"]
+    F0["载入 KD 预训练权重"]
+    LAB["真实标注 Y\n(bbox, cls=0)"]
+    DET["检测头 + NMS"]
+    LDET["检测损失 L_det\n= β_cls·L_cls + β_obj·L_obj + β_box·L_box\n- L_cls: BCE/CE(+LS)\n- L_obj: BCE (objectness)\n- L_box: CIoU/DIoU/L1"]
+    CKPT["输出: 微调 best.pt\n(Ultralytics 格式, 含 nc=1,names={'0':'polyp'})"]
+
+    F0 --> DET
+    LAB --> LDET
+    DET -->|"预测 vs 标注"| LDET
+    LDET -->|"反传, 训练头+全模型"| DET
+    LDET --> CKPT
+  end
+
+  %% ====== Stage 4: 推理与分割流水线 ======
+  subgraph S4["Stage 4 · 推理：YOLO 检测 → TinySAM 分割"]
+    X0["输入帧/图像 X\n640×640×3"]
+    YINF["YOLOv11n 推理 (best.pt)\n预处理→前向→NMS"]
+    BOX["输出: bboxes + conf\n原图坐标系"]
+    PROMPT["提示构造: bbox + 中心点"]
+    SAM["TinySAM 推理\n输入: 原图 + 提示\n输出: mask (H×W)"]
+    POST["后处理: 小连通域移除/孔洞填补/可视化"]
+
+    X0 --> YINF --> BOX --> PROMPT --> SAM --> POST
+  end
+
+  %% ====== 对齐/尺寸参数（与你当前模型一致） ======
+  subgraph P["参数注记（基于实测与640输入）"]
+    P1["学生层对齐:"]
+    P1a["P4: 40×40×384 (实测 L12)"]
+    P1b["P5: 20×20×384 (实测 L21)"]
+    P2["教师尺寸:"]
+    P2a["p=16 → 40×40×D_T 与 P4 无缝对齐"]
+    P2b["p=14 → ≈46×46×D_T，先插值到 40×40 或 20×20"]
+    P3["蒸馏权重建议: λ_f≈0.5 起步; 分层权重 w_P4=0.7, w_P5=0.3"]
+  end
+
+  S1 --> S2 --> S3 --> S4

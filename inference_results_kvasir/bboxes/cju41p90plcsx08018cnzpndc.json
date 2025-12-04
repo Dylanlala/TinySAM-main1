@@ -1,0 +1,20 @@
+{
+  "image_name": "cju41p90plcsx08018cnzpndc",
+  "image_size": [
+    529,
+    622
+  ],
+  "num_detections": 1,
+  "detections": [
+    {
+      "bbox": [
+        113,
+        89,
+        393,
+        491
+      ],
+      "confidence": 0.27002158761024475,
+      "class_id": 0
+    }
+  ]
+}

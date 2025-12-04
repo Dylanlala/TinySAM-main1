@@ -1,0 +1,16 @@
+# Kvasir-SEG dataset configuration for YOLO training
+# Path to dataset root directory
+path: /home/huangmanling/huangmanling/yolo_sam/TinySAM-main/Kvasir-SEG
+
+# Train and val images (relative to 'path')
+train: train/images
+val: val/images
+test: test/images
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  0: polyp
+

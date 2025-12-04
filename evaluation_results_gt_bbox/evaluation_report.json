@@ -1,0 +1,1126 @@
+{
+  "evaluation_time": "2025-11-26T13:32:24.007959",
+  "model_info": {
+    "sam_weights": "results_tinysam_kvasir_optimized/best_model.pth",
+    "sam_model_type": "vit_t",
+    "use_center_point": true
+  },
+  "dataset_info": {
+    "test_images_dir": "Kvasir-SEG/test/images",
+    "test_labels_dir": "Kvasir-SEG/test/labels",
+    "test_masks_dir": "Kvasir-SEG/masks",
+    "total_images": 100,
+    "valid_evaluations": 100
+  },
+  "summary": {
+    "average_metrics": {
+      "dice": 0.5690803915238342,
+      "iou": 0.43510667740795195,
+      "precision": 0.9138388873889675,
+      "recall": 0.45350342169727204,
+      "f1": 0.5690803915238342
+    }
+  },
+  "per_image_results": [
+    {
+      "image_name": "cju0qx73cjw570799j4n5cjze",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.7234821697777046,
+        "iou": 0.5667622908578692,
+        "precision": 0.845824520925463,
+        "recall": 0.6320593869731801,
+        "f1": 0.7234821697777046
+      }
+    },
+    {
+      "image_name": "cju0t4oil7vzk099370nun5h9",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.5761643722450713,
+        "iou": 0.4046565214508322,
+        "precision": 0.8502290102924017,
+        "recall": 0.43571505069256034,
+        "f1": 0.5761643722450713
+      }
+    },
+    {
+      "image_name": "cju16b6ynq8e40988m8vx0xnj",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.3622508792497069,
+        "iou": 0.2211882605583393,
+        "precision": 0.9919743178170144,
+        "recall": 0.22158479741842954,
+        "f1": 0.3622508792497069
+      }
+    },
+    {
+      "image_name": "cju16d65tzw9d0799ouslsw25",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.9144322476156199,
+        "iou": 0.8423539162867799,
+        "precision": 0.9850731801880391,
+        "recall": 0.8532448996725716,
+        "f1": 0.9144322476156199
+      }
+    },
+    {
+      "image_name": "cju17otoe119u0799nqcbl8n1",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.4004220863123439,
+        "iou": 0.2503298419451251,
+        "precision": 0.6778412902096882,
+        "recall": 0.2841346682803389,
+        "f1": 0.4004220863123439
+      }
+    },
+    {
+      "image_name": "cju1aqqv02qwz0878a5cyhr67",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.8314755678737121,
+        "iou": 0.7115602763741363,
+        "precision": 0.9850810193447069,
+        "recall": 0.7193119624706802,
+        "f1": 0.8314755678737121
+      }
+    },
+    {
+      "image_name": "cju1bhnfitmge0835ynls0l6b",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.6882410245443962,
+        "iou": 0.5246703376322273,
+        "precision": 0.9634138229229029,
+        "recall": 0.5353367339395283,
+        "f1": 0.6882410245443962
+      }
+    },
+    {
+      "image_name": "cju1csmlc4ht10799b8ymmghg",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.7646976010812029,
+        "iou": 0.6190367652086705,
+        "precision": 0.9941432702514733,
+        "recall": 0.621302587331,
+        "f1": 0.7646976010812029
+      }
+    },
+    {
+      "image_name": "cju1dfeupuzlw0835gnxip369",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.7973845506012258,
+        "iou": 0.6630419981714553,
+        "precision": 0.999882660095632,
+        "recall": 0.6630935937591191,
+        "f1": 0.7973845506012258
+      }
+    },
+    {
+      "image_name": "cju1fjsb4sipq09931lvd8e41",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.8151976603469141,
+        "iou": 0.6880452823764736,
+        "precision": 0.965655238322781,
+        "recall": 0.7053049472122851,
+        "f1": 0.8151976603469141
+      }
+    },
+    {
+      "image_name": "cju1fm3id6gl50801r3fok20c",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.8040871934604905,
+        "iou": 0.6723627249943039,
+        "precision": 0.9952782462057336,
+        "recall": 0.6745142857142857,
+        "f1": 0.8040871934604905
+      }
+    },
+    {
+      "image_name": "cju1g20bdwq6u0835e16xugcd",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.37330092271058635,
+        "iou": 0.22948369979567565,
+        "precision": 0.9257550593590453,
+        "recall": 0.23378640776699028,
+        "f1": 0.37330092271058635
+      }
+    },
+    {
+      "image_name": "cju2hlm19vjjf0801o69qnber",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.733642219459826,
+        "iou": 0.5793325004461896,
+        "precision": 0.9998074923959497,
+        "recall": 0.5793971306811844,
+        "f1": 0.733642219459826
+      }
+    },
+    {
+      "image_name": "cju2hqt33lmra0988fr5ijv8j",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.4488312359659467,
+        "iou": 0.28935035720980606,
+        "precision": 0.9701117318435755,
+        "recall": 0.29195300842737953,
+        "f1": 0.4488312359659467
+      }
+    },
+    {
+      "image_name": "cju2hx006vidl0799igm81vmh",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.6703601108033241,
+        "iou": 0.5041666666666667,
+        "precision": 0.9908750584932148,
+        "recall": 0.5065183590479607,
+        "f1": 0.6703601108033241
+      }
+    },
+    {
+      "image_name": "cju2nfnvxzdkd0878399axlco",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.5532387106012063,
+        "iou": 0.3823980601741884,
+        "precision": 0.9480431848852902,
+        "recall": 0.39058353761783215,
+        "f1": 0.5532387106012063
+      }
+    },
+    {
+      "image_name": "cju2pkwt3r8b90988v2ywq1px",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.9092063814652982,
+        "iou": 0.8335274116167497,
+        "precision": 0.997602854275839,
+        "recall": 0.8352002240268832,
+        "f1": 0.9092063814652982
+      }
+    },
+    {
+      "image_name": "cju2r11x7sdgx0988o8ule0wl",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.4377690802348337,
+        "iou": 0.28022046849555304,
+        "precision": 0.8534910339565052,
+        "recall": 0.2943808395841558,
+        "f1": 0.4377690802348337
+      }
+    },
+    {
+      "image_name": "cju2rn0hasxri0835nfy3buay",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.6585365853658537,
+        "iou": 0.4909090909090909,
+        "precision": 1.0,
+        "recall": 0.4909090909090909,
+        "f1": 0.6585365853658537
+      }
+    },
+    {
+      "image_name": "cju2rz4k434s70855wwx3ddtx",
+      "num_gt_boxes": 2,
+      "metrics": {
+        "dice": 0.2903519724631323,
+        "iou": 0.16983143184240654,
+        "precision": 0.8468503937007874,
+        "recall": 0.17521280495255162,
+        "f1": 0.2903519724631323
+      }
+    },
+    {
+      "image_name": "cju2trtjf4qjd0878a2zle9v9",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.6328393078776374,
+        "iou": 0.4628858271921393,
+        "precision": 0.9399262632834526,
+        "recall": 0.47699757869249393,
+        "f1": 0.6328393078776374
+      }
+    },
+    {
+      "image_name": "cju2uwz9f5yf1085506cfamfx",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.9135159171045463,
+        "iou": 0.8408000922296518,
+        "precision": 0.9265050100836867,
+        "recall": 0.9008859887776813,
+        "f1": 0.9135159171045463
+      }
+    },
+    {
+      "image_name": "cju2xf8e5y2wm08359vcgk09b",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.6028715550704326,
+        "iou": 0.43150760923833653,
+        "precision": 0.964695425701234,
+        "recall": 0.43843118835133865,
+        "f1": 0.6028715550704326
+      }
+    },
+    {
+      "image_name": "cju2xjz2ju8pe0993ysv9wg17",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.650620573136656,
+        "iou": 0.4821628077204608,
+        "precision": 0.8867122462715648,
+        "recall": 0.5138147631168405,
+        "f1": 0.650620573136656
+      }
+    },
+    {
+      "image_name": "cju2y40d8ulqo0993q0adtgtb",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.3146431256143868,
+        "iou": 0.18669228481895744,
+        "precision": 0.9743344872866181,
+        "recall": 0.1876149319602795,
+        "f1": 0.3146431256143868
+      }
+    },
+    {
+      "image_name": "cju2zxja9w1eh09933609ho9z",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.8685182520266705,
+        "iou": 0.7675936917076479,
+        "precision": 0.9887505460899957,
+        "recall": 0.7743563424856728,
+        "f1": 0.8685182520266705
+      }
+    },
+    {
+      "image_name": "cju30ywtc0oar0835bp2en7ec",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.8561179639059693,
+        "iou": 0.7484320383501448,
+        "precision": 0.9960723589770855,
+        "recall": 0.7506473213167792,
+        "f1": 0.8561179639059693
+      }
+    },
+    {
+      "image_name": "cju323ypb1fbb0988gx5rzudb",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.7137983272974482,
+        "iou": 0.5549661009207237,
+        "precision": 0.729093262694065,
+        "recall": 0.6991319216098908,
+        "f1": 0.7137983272974482
+      }
+    },
+    {
+      "image_name": "cju32a52lb9rc0799xi40qs00",
+      "num_gt_boxes": 3,
+      "metrics": {
+        "dice": 0.5798415576978143,
+        "iou": 0.4082935681161368,
+        "precision": 0.9442760550244812,
+        "recall": 0.4183740229330946,
+        "f1": 0.5798415576978143
+      }
+    },
+    {
+      "image_name": "cju32l161bi1v07990vm376in",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.7433211721784159,
+        "iou": 0.5914965349316351,
+        "precision": 0.9850280723643169,
+        "recall": 0.5968625968625969,
+        "f1": 0.7433211721784159
+      }
+    },
+    {
+      "image_name": "cju32qr9tbvsj08013pkpjenq",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.5838988371050193,
+        "iou": 0.41232847793962424,
+        "precision": 0.8830816529523465,
+        "recall": 0.4361379063951411,
+        "f1": 0.5838988371050193
+      }
+    },
+    {
+      "image_name": "cju32upim1z7u0988l883nqp6",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.4990140031472223,
+        "iou": 0.3324574674204422,
+        "precision": 0.9255209102999852,
+        "recall": 0.3415964438626633,
+        "f1": 0.4990140031472223
+      }
+    },
+    {
+      "image_name": "cju33eqwbcch208012jikwdky",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.14594985620269246,
+        "iou": 0.07871947621857216,
+        "precision": 0.46047650857270095,
+        "recall": 0.08671768529195932,
+        "f1": 0.14594985620269246
+      }
+    },
+    {
+      "image_name": "cju34uhepd3dd0799hs8782ad",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.7356591994124128,
+        "iou": 0.5818519809457419,
+        "precision": 0.9758378799688231,
+        "recall": 0.5903571849581516,
+        "f1": 0.7356591994124128
+      }
+    },
+    {
+      "image_name": "cju34zivp3fq80988opxbaqyn",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.31584529717034737,
+        "iou": 0.18753936122357176,
+        "precision": 1.0,
+        "recall": 0.18753936122357176,
+        "f1": 0.31584529717034737
+      }
+    },
+    {
+      "image_name": "cju3tsh4lfsok0987w6x3a0v1",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.5583072599034841,
+        "iou": 0.3872581475759582,
+        "precision": 0.8010713416118822,
+        "recall": 0.42846212700841624,
+        "f1": 0.5583072599034841
+      }
+    },
+    {
+      "image_name": "cju3ttznuftyf09875t11850w",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.4275161588180979,
+        "iou": 0.271873165002936,
+        "precision": 0.9023665893271462,
+        "recall": 0.2801129324997839,
+        "f1": 0.4275161588180979
+      }
+    },
+    {
+      "image_name": "cju3uhb79gcgr0871orbrbi3x",
+      "num_gt_boxes": 10,
+      "metrics": {
+        "dice": 0.6968344663635985,
+        "iou": 0.5347244447289253,
+        "precision": 0.9525655644241733,
+        "recall": 0.5493522719800092,
+        "f1": 0.6968344663635985
+      }
+    },
+    {
+      "image_name": "cju3wstckialg0871xs0vevsj",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.9320600217203983,
+        "iou": 0.8727644256018028,
+        "precision": 0.9373698838055974,
+        "recall": 0.9268099776921517,
+        "f1": 0.9320600217203983
+      }
+    },
+    {
+      "image_name": "cju41nz76lcxu0755cya2qefx",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.700868320169969,
+        "iou": 0.5394898231268331,
+        "precision": 0.9682863797339119,
+        "recall": 0.5491938256636688,
+        "f1": 0.700868320169969
+      }
+    },
+    {
+      "image_name": "cju41p90plcsx08018cnzpndc",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.2118112834048169,
+        "iou": 0.11845018450184502,
+        "precision": 0.8991596638655462,
+        "recall": 0.1200448765893792,
+        "f1": 0.2118112834048169
+      }
+    },
+    {
+      "image_name": "cju42wamblrqn098798r2yyok",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.6073984817447885,
+        "iou": 0.43616100785657425,
+        "precision": 0.8031526172671652,
+        "recall": 0.4883675868394197,
+        "f1": 0.6073984817447885
+      }
+    },
+    {
+      "image_name": "cju439oazm2fu0871ma0vvrft",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.4649355532808289,
+        "iou": 0.3028768950219101,
+        "precision": 0.5539763534536403,
+        "recall": 0.4005543257203535,
+        "f1": 0.4649355532808289
+      }
+    },
+    {
+      "image_name": "cju43jcqim2cp08172dvjvyui",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.8481266726137378,
+        "iou": 0.7363020329138432,
+        "precision": 0.9965932914046122,
+        "recall": 0.7381599378881988,
+        "f1": 0.8481266726137378
+      }
+    },
+    {
+      "image_name": "cju45ofd9ne1j0801ri8dup7t",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.5566789339588304,
+        "iou": 0.3856930706940514,
+        "precision": 0.7794009399241266,
+        "recall": 0.4329569402069638,
+        "f1": 0.5566789339588304
+      }
+    },
+    {
+      "image_name": "cju5boicjagt20871b1fotkh4",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.1716038547432633,
+        "iou": 0.09385485480728102,
+        "precision": 0.9029721079103795,
+        "recall": 0.09481103088031956,
+        "f1": 0.1716038547432633
+      }
+    },
+    {
+      "image_name": "cju5es375cnzy0801nkq35ffs",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.8202244093402806,
+        "iou": 0.6952376501378698,
+        "precision": 0.9896879781784312,
+        "recall": 0.700310705206666,
+        "f1": 0.8202244093402806
+      }
+    },
+    {
+      "image_name": "cju5fb86jd1jp0755b1ukbhq5",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.18153203000122956,
+        "iou": 0.09982690539297885,
+        "precision": 0.625646241206882,
+        "recall": 0.1061684716169766,
+        "f1": 0.18153203000122956
+      }
+    },
+    {
+      "image_name": "cju5gucasds9d0801019axylx",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.21412528075867232,
+        "iou": 0.1198993851313583,
+        "precision": 0.9828178694158075,
+        "recall": 0.12015123932222378,
+        "f1": 0.21412528075867232
+      }
+    },
+    {
+      "image_name": "cju5hi52odyf90817prvcwg45",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.24679348891939595,
+        "iou": 0.1407669246946172,
+        "precision": 0.7407581822462915,
+        "recall": 0.1480609939759036,
+        "f1": 0.24679348891939595
+      }
+    },
+    {
+      "image_name": "cju5k3j3uf6de0817hszzfr7n",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.20628649948471317,
+        "iou": 0.11500526668581826,
+        "precision": 0.9036869826937547,
+        "recall": 0.11643238002908386,
+        "f1": 0.20628649948471317
+      }
+    },
+    {
+      "image_name": "cju5k503sfa5f0871lx0rpu5y",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.5502124585185457,
+        "iou": 0.3795124752943561,
+        "precision": 0.7401818661043753,
+        "recall": 0.4378398394106527,
+        "f1": 0.5502124585185457
+      }
+    },
+    {
+      "image_name": "cju5k7r0yf98c09878csbxb4d",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.9502634025410598,
+        "iou": 0.905239852398524,
+        "precision": 0.9295240982115792,
+        "recall": 0.9719492868462758,
+        "f1": 0.9502634025410598
+      }
+    },
+    {
+      "image_name": "cju5u6wf0kh1t0755bg1ssixv",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.319466567372072,
+        "iou": 0.19009831114904233,
+        "precision": 0.9916099482042721,
+        "recall": 0.19040456346270815,
+        "f1": 0.319466567372072
+      }
+    },
+    {
+      "image_name": "cju5wkonqlrl409877y8zvnub",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.2615669157357402,
+        "iou": 0.15046130800394922,
+        "precision": 0.9095492899773616,
+        "recall": 0.15274681597456236,
+        "f1": 0.2615669157357402
+      }
+    },
+    {
+      "image_name": "cju5xq3tdm9fn0987pbedxdg5",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.8167882854204418,
+        "iou": 0.6903145695364239,
+        "precision": 0.8655802366618227,
+        "recall": 0.7732035234121465,
+        "f1": 0.8167882854204418
+      }
+    },
+    {
+      "image_name": "cju6vqarjv7yo0987q4b1btk1",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.4250632798969759,
+        "iou": 0.26989229120848135,
+        "precision": 0.9695128127215639,
+        "recall": 0.27220247405090287,
+        "f1": 0.4250632798969759
+      }
+    },
+    {
+      "image_name": "cju6vta3kvazg0817qbeppjtm",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.499952340101039,
+        "iou": 0.33329097032471244,
+        "precision": 0.9496306488991889,
+        "recall": 0.3392889486894196,
+        "f1": 0.499952340101039
+      }
+    },
+    {
+      "image_name": "cju6w733bveoz0817e600tw72",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.8112071741769267,
+        "iou": 0.6823789280653497,
+        "precision": 0.9963488103206961,
+        "recall": 0.6840895796774463,
+        "f1": 0.8112071741769267
+      }
+    },
+    {
+      "image_name": "cju6xa0qmvzun0818xjukgncj",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.39869461298032727,
+        "iou": 0.2489809977610655,
+        "precision": 0.9886026897652154,
+        "recall": 0.249697737348149,
+        "f1": 0.39869461298032727
+      }
+    },
+    {
+      "image_name": "cju76l27oyrw907551ri2a7fl",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.25940888794386563,
+        "iou": 0.14903493769850965,
+        "precision": 0.6859861591695502,
+        "recall": 0.1599467516488836,
+        "f1": 0.25940888794386563
+      }
+    },
+    {
+      "image_name": "cju76o55nymqd0871h31sph9w",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.4149789835689721,
+        "iou": 0.2618129218900675,
+        "precision": 0.9836956521739131,
+        "recall": 0.262953995157385,
+        "f1": 0.4149789835689721
+      }
+    },
+    {
+      "image_name": "cju772304yw5t0818vbw8kkjf",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.5381900221971544,
+        "iou": 0.3681668824056557,
+        "precision": 0.9849493873201918,
+        "recall": 0.37024983728032845,
+        "f1": 0.5381900221971544
+      }
+    },
+    {
+      "image_name": "cju773hsyyosz0817pk1e7sjq",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.3635527978857865,
+        "iou": 0.2221598090155877,
+        "precision": 0.9868995633187773,
+        "recall": 0.2228169014084507,
+        "f1": 0.3635527978857865
+      }
+    },
+    {
+      "image_name": "cju7787c5yy3l080159mwqsnj",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.7429585719548545,
+        "iou": 0.591037459370171,
+        "precision": 0.9880634241938357,
+        "recall": 0.5952879300166372,
+        "f1": 0.7429585719548545
+      }
+    },
+    {
+      "image_name": "cju7afqon1ip40850ue2308b6",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.34341808818796266,
+        "iou": 0.20730522634544396,
+        "precision": 0.9968857053877297,
+        "recall": 0.20743956969736246,
+        "f1": 0.34341808818796266
+      }
+    },
+    {
+      "image_name": "cju7ahtkb1jr90801jck4kbds",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.4739645987283038,
+        "iou": 0.3105855855855856,
+        "precision": 0.906461578912772,
+        "recall": 0.32086930218488957,
+        "f1": 0.4739645987283038
+      }
+    },
+    {
+      "image_name": "cju7alcgr1lsr0871riqk84z7",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.7590059497618182,
+        "iou": 0.6116112721218474,
+        "precision": 0.9880952380952381,
+        "recall": 0.6161515763317286,
+        "f1": 0.7590059497618182
+      }
+    },
+    {
+      "image_name": "cju7bd1qu1mx409877xjxibox",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.3957969447447947,
+        "iou": 0.2467249662991255,
+        "precision": 0.9200824954885279,
+        "recall": 0.2521281480696549,
+        "f1": 0.3957969447447947
+      }
+    },
+    {
+      "image_name": "cju7dda8w2br20818zhsuz8s7",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.8721810058235774,
+        "iou": 0.7733342055127188,
+        "precision": 0.8834359266558935,
+        "recall": 0.8612092515024585,
+        "f1": 0.8721810058235774
+      }
+    },
+    {
+      "image_name": "cju7f5ghb2r5s0801chwkxxh9",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.6524409922797704,
+        "iou": 0.48416506330476433,
+        "precision": 0.9753985937406823,
+        "recall": 0.490150567864508,
+        "f1": 0.6524409922797704
+      }
+    },
+    {
+      "image_name": "cju7f900s2o0k08175gl1giid",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.42873642873642875,
+        "iou": 0.2728609232578653,
+        "precision": 0.9656607700312175,
+        "recall": 0.2755344418052256,
+        "f1": 0.42873642873642875
+      }
+    },
+    {
+      "image_name": "cju8402x1kcy70801t6kz6bdi",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.7485272914521113,
+        "iou": 0.5981171513685215,
+        "precision": 0.931032715907053,
+        "recall": 0.6258460054764324,
+        "f1": 0.7485272914521113
+      }
+    },
+    {
+      "image_name": "cju843yjskhq30818qre4rwm2",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.3829812001629707,
+        "iou": 0.23684399971204376,
+        "precision": 0.8036150464093795,
+        "recall": 0.25139451363948956,
+        "f1": 0.3829812001629707
+      }
+    },
+    {
+      "image_name": "cju84aoa3ktwn0755pfl4gfwd",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.7181791188625334,
+        "iou": 0.560280402223775,
+        "precision": 0.841193641816233,
+        "recall": 0.6265531972719783,
+        "f1": 0.7181791188625334
+      }
+    },
+    {
+      "image_name": "cju84gpefknwm098714oq8q61",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.6547826086956522,
+        "iou": 0.486748545572075,
+        "precision": 0.9990996540776192,
+        "recall": 0.486962145183269,
+        "f1": 0.6547826086956522
+      }
+    },
+    {
+      "image_name": "cju858eswlepn0871pzvdrhj1",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.10178805774278216,
+        "iou": 0.05362312578317418,
+        "precision": 0.7701696317749276,
+        "recall": 0.05449515501039258,
+        "f1": 0.10178805774278216
+      }
+    },
+    {
+      "image_name": "cju85fc11ljr40818edpb0inh",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.7106342545870883,
+        "iou": 0.5511502512884828,
+        "precision": 0.8951234017246507,
+        "recall": 0.5891978117690809,
+        "f1": 0.7106342545870883
+      }
+    },
+    {
+      "image_name": "cju85je7vlht70817c9jcjwi4",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.7161649858163168,
+        "iou": 0.5578325703102006,
+        "precision": 0.9166087143769923,
+        "recall": 0.5876564444947381,
+        "f1": 0.7161649858163168
+      }
+    },
+    {
+      "image_name": "cju85l4yjlops0801fvmnwptf",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.33365480314474627,
+        "iou": 0.20023150291693675,
+        "precision": 0.916073546856465,
+        "recall": 0.20397324755445292,
+        "f1": 0.33365480314474627
+      }
+    },
+    {
+      "image_name": "cju87li0zn3yb0817kbwgjiz8",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.47805872289570833,
+        "iou": 0.31411114875948604,
+        "precision": 0.6901796265658237,
+        "recall": 0.3656723893960454,
+        "f1": 0.47805872289570833
+      }
+    },
+    {
+      "image_name": "cju886ryxnsl50801r93jai7q",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.71812355878733,
+        "iou": 0.5602127753498433,
+        "precision": 0.8917504040475019,
+        "recall": 0.6010894020130254,
+        "f1": 0.71812355878733
+      }
+    },
+    {
+      "image_name": "cju88itqbny720987hxizbj5y",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.21656562301027046,
+        "iou": 0.12143178678422302,
+        "precision": 0.9868802825785291,
+        "recall": 0.12162813476577683,
+        "f1": 0.21656562301027046
+      }
+    },
+    {
+      "image_name": "cju88k75inzyb0850ccv5x3vk",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.8180821070763432,
+        "iou": 0.692164922770304,
+        "precision": 0.8537604670815088,
+        "recall": 0.7852661032757695,
+        "f1": 0.8180821070763432
+      }
+    },
+    {
+      "image_name": "cju88msmoo3470817m441j4sg",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.5951598865773885,
+        "iou": 0.4236495533483883,
+        "precision": 0.9901447921531994,
+        "recall": 0.4254435257285061,
+        "f1": 0.5951598865773885
+      }
+    },
+    {
+      "image_name": "cju88trl3ogi208716qvti51b",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.2638793265318896,
+        "iou": 0.15199365491383662,
+        "precision": 0.992467043314501,
+        "recall": 0.15216920522630478,
+        "f1": 0.2638793265318896
+      }
+    },
+    {
+      "image_name": "cju88vx2uoocy075531lc63n3",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.9169811320754717,
+        "iou": 0.8466898954703833,
+        "precision": 0.9980051631072518,
+        "recall": 0.8481252493019545,
+        "f1": 0.9169811320754717
+      }
+    },
+    {
+      "image_name": "cju88z8bson4h0871nnd7fdxo",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.27402046418767156,
+        "iou": 0.1587622903412377,
+        "precision": 0.9973758578926121,
+        "recall": 0.15882863480021858,
+        "f1": 0.27402046418767156
+      }
+    },
+    {
+      "image_name": "cju8arof2qpf20850ifr1bnqj",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.4151572070232748,
+        "iou": 0.261954819028774,
+        "precision": 0.9559232794283565,
+        "recall": 0.26515752138535365,
+        "f1": 0.4151572070232748
+      }
+    },
+    {
+      "image_name": "cju8b4ja9r2s808509d45ma86",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.11311825176181547,
+        "iou": 0.05994983621386768,
+        "precision": 0.9264986231730565,
+        "recall": 0.06023631806538684,
+        "f1": 0.11311825176181547
+      }
+    },
+    {
+      "image_name": "cju8b542nr81x0871uxnkm9ih",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.5776645247064037,
+        "iou": 0.40613802773017604,
+        "precision": 1.0,
+        "recall": 0.40613802773017604,
+        "f1": 0.5776645247064037
+      }
+    },
+    {
+      "image_name": "cju8bop5jrsid08716i24fqda",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.6517159927747672,
+        "iou": 0.48336699781524384,
+        "precision": 1.0,
+        "recall": 0.48336699781524384,
+        "f1": 0.6517159927747672
+      }
+    },
+    {
+      "image_name": "cju8bpctzrqkr0850zeldv9kt",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.3402808112324493,
+        "iou": 0.20502312290859873,
+        "precision": 0.9876833906900924,
+        "recall": 0.2055486448791888,
+        "f1": 0.3402808112324493
+      }
+    },
+    {
+      "image_name": "cju8c2rqzs5t80850d0zky5dy",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.6945131498332161,
+        "iou": 0.5319955155002042,
+        "precision": 0.7421466762042167,
+        "recall": 0.6526254064715603,
+        "f1": 0.6945131498332161
+      }
+    },
+    {
+      "image_name": "cju8c6hnxsdvr0801wn0vrsa6",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.8078568034215111,
+        "iou": 0.6776508105235185,
+        "precision": 0.9497206703910615,
+        "recall": 0.7028665931642778,
+        "f1": 0.8078568034215111
+      }
+    },
+    {
+      "image_name": "cju8cgi2kspp308011nxdtjp6",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.9414783273283109,
+        "iou": 0.8894275399690562,
+        "precision": 0.9953826618954172,
+        "recall": 0.8931123770067323,
+        "f1": 0.9414783273283109
+      }
+    },
+    {
+      "image_name": "cju8dqkrqu83i0818ev74qpxq",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.2109849139086258,
+        "iou": 0.11793355771503523,
+        "precision": 0.7206501617267124,
+        "recall": 0.12358319756915252,
+        "f1": 0.2109849139086258
+      }
+    },
+    {
+      "image_name": "cjyzl833ndne80838pzuq6ila",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.6444957144394104,
+        "iou": 0.47546564131508395,
+        "precision": 0.9799338398342361,
+        "recall": 0.4801403533770305,
+        "f1": 0.6444957144394104
+      }
+    },
+    {
+      "image_name": "cjyzuio1qgh040763k56deohv",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.97165991902834,
+        "iou": 0.9448818897637795,
+        "precision": 0.9709111924484685,
+        "recall": 0.9724098012733938,
+        "f1": 0.97165991902834
+      }
+    },
+    {
+      "image_name": "ck2395w2mb4vu07480otsu6tw",
+      "num_gt_boxes": 1,
+      "metrics": {
+        "dice": 0.8590518544104313,
+        "iou": 0.7529280429887798,
+        "precision": 0.9686473065407366,
+        "recall": 0.7717355468068189,
+        "f1": 0.8590518544104313
+      }
+    }
+  ]
+}

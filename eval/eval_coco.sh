@@ -1,0 +1,1 @@
+python tinysam_zero_shot_ins_eval.py --eval_type='lvis' --val_img_path='/home/huangmanling/Deformable-DETR-main/data/coco/val2017/' --val_json_path='json_files/lvis_v1_val.json' --vit_det_file_path='json_files/lvis_instances_results_vitdet.json' --sam_checkpoint_path='../weights/tinysam_42.3.pth'

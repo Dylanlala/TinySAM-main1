@@ -1,0 +1,2133 @@
+{
+  "summary": {
+    "total_images": 150,
+    "skipped_broken": 0,
+    "total_time_sec": 5.671205759048462,
+    "avg_time_per_image_sec": 0.037808038393656415,
+    "fps_avg_latency": 26.449401833229835,
+    "fps_throughput": 26.44940183322984,
+    "total_detections": 1350,
+    "avg_detections": 9.0,
+    "avg_dice": 0.0,
+    "avg_iou": 0.0,
+    "mDice": 0.0,
+    "mIoU": 0.0,
+    "avg_precision": 0.0,
+    "avg_recall": 0.0,
+    "avg_f1": 0.0,
+    "specificity": 0.0,
+    "positive_metrics": {
+      "dice": 0.0,
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "results": [
+    {
+      "image": "cju0qx73cjw570799j4n5cjze.jpg",
+      "time_sec": 0.6362583637237549,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju0tl3uz8blh0993wxvn7ly3.jpg",
+      "time_sec": 0.034920454025268555,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju16d65tzw9d0799ouslsw25.jpg",
+      "time_sec": 0.032684326171875,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju16whaj0e7n0855q7b6cjkm.jpg",
+      "time_sec": 0.0332188606262207,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju17otoe119u0799nqcbl8n1.jpg",
+      "time_sec": 0.033907413482666016,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju1819curo000988pd5xcqme.jpg",
+      "time_sec": 0.032763004302978516,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju1c8ffau5770835g0g343o8.jpg",
+      "time_sec": 0.03435206413269043,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju1cdxvz48hw0801i0fjwcnk.jpg",
+      "time_sec": 0.03334999084472656,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju1cnnziug1l0835yh4ropyg.jpg",
+      "time_sec": 0.03671145439147949,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju1csmlc4ht10799b8ymmghg.jpg",
+      "time_sec": 0.03567957878112793,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju1dg44i4z3w0801nyz4p6zf.jpg",
+      "time_sec": 0.03594326972961426,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju1dhfok4mhe0878jlgrag0h.jpg",
+      "time_sec": 0.03344583511352539,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju1djtprvd7b0988thwwrg09.jpg",
+      "time_sec": 0.03235268592834473,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju1dq3x1vgx109889c7wyirg.jpg",
+      "time_sec": 0.03418540954589844,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju1efbr0rqxz09931z0lf4vf.jpg",
+      "time_sec": 0.03399801254272461,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju1f15k3w4ct0835cmde6ypo.jpg",
+      "time_sec": 0.036659955978393555,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju1ftaji6isw0855108yqcse.jpg",
+      "time_sec": 0.03386282920837402,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju1fuoa4wmc50835qfd11sp9.jpg",
+      "time_sec": 0.03479194641113281,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju1h5w4wxajx0835mc954kxy.jpg",
+      "time_sec": 0.03424859046936035,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2hugv9vget0799hhk7ksvg.jpg",
+      "time_sec": 0.03523826599121094,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2hw5gjlr5h0988so2qqres.jpg",
+      "time_sec": 0.03420209884643555,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2i03ptvkiu0799xbbd4det.jpg",
+      "time_sec": 0.03617072105407715,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2i6acqvo6l0799u20fift8.jpg",
+      "time_sec": 0.035657644271850586,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2nyc5f02m40801ojqbtiea.jpg",
+      "time_sec": 0.033524513244628906,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2omjpeqj5a0988pjdlb8l1.jpg",
+      "time_sec": 0.03528308868408203,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2qh5le1ock0878oahaql7d.jpg",
+      "time_sec": 0.03463315963745117,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2qxxko229x08786gvxxhur.jpg",
+      "time_sec": 0.034607648849487305,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2raxlosl630988jdbfy9b0.jpg",
+      "time_sec": 0.03600883483886719,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2rpa30t07b0835im0erql0.jpg",
+      "time_sec": 0.03546905517578125,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2rqo702wpx0855fn7d5cxh.jpg",
+      "time_sec": 0.036000967025756836,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2rxm8rpbaf0993o3qr2oph.jpg",
+      "time_sec": 0.035562992095947266,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2s16zp317h0799gr67jqc2.jpg",
+      "time_sec": 0.034960269927978516,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2s9g11pnra0993gn4eh793.jpg",
+      "time_sec": 0.03347277641296387,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2sggy13na70855tbeoqgha.jpg",
+      "time_sec": 0.03579449653625488,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2t3ibkuecr0835o7si16zv.jpg",
+      "time_sec": 0.0335235595703125,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2trbpkv0c00988hxla5dzz.jpg",
+      "time_sec": 0.031246662139892578,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2tvrvm53ws0801a0jfjdxg.jpg",
+      "time_sec": 0.03229212760925293,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2tzypl4wss0799ow05oxb9.jpg",
+      "time_sec": 0.0317072868347168,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2ulk385h170799rlklxob0.jpg",
+      "time_sec": 0.03194093704223633,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2wxv0hxs2f09884w48v8fi.jpg",
+      "time_sec": 0.035414934158325195,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2xd75m82720801q4s4ik3n.jpg",
+      "time_sec": 0.04393768310546875,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2xyd9vyi7m098831qcucse.jpg",
+      "time_sec": 0.029239654541015625,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2yljr0yzhw0988ecf271ly.jpg",
+      "time_sec": 0.045682430267333984,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2ysg748ru80878sp6j0gm0.jpg",
+      "time_sec": 0.030971765518188477,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2yyhsp933j0855hp32e012.jpg",
+      "time_sec": 0.03106832504272461,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2z1nxlzaj40835wj81s1iy.jpg",
+      "time_sec": 0.031761884689331055,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2zblxw9848087853csbrx1.jpg",
+      "time_sec": 0.03394651412963867,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2zgbj9zmrw0835nnlzxj4c.jpg",
+      "time_sec": 0.03354907035827637,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2zi4l09f5807991s8do2b2.jpg",
+      "time_sec": 0.03403425216674805,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2zkpdl9h7t0799ix60teqg.jpg",
+      "time_sec": 0.03366541862487793,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2zo0fwzv580988qlijd2xa.jpg",
+      "time_sec": 0.03497314453125,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju2zpw4q9vzr0801p0lysjdl.jpg",
+      "time_sec": 0.03654909133911133,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju30ajhw09sx0988qyahx9s8.jpg",
+      "time_sec": 0.03411436080932617,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju30ia8da2bq0799klnehml2.jpg",
+      "time_sec": 0.03464007377624512,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju30k2z40ds308353kdew70n.jpg",
+      "time_sec": 0.03551506996154785,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju30ov1oah920801mi8thuyg.jpg",
+      "time_sec": 0.034804582595825195,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju30qbm1ad3x0855znuhpz9u.jpg",
+      "time_sec": 0.03327679634094238,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju323ypb1fbb0988gx5rzudb.jpg",
+      "time_sec": 0.031235218048095703,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju324q101fhe08350wae9cif.jpg",
+      "time_sec": 0.03435778617858887,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju326h4v1gxw08352px40p7r.jpg",
+      "time_sec": 0.03354787826538086,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju32srle1xfq083575i3fl75.jpg",
+      "time_sec": 0.03600287437438965,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju32zhbnc1oy0801iyv1ix6p.jpg",
+      "time_sec": 0.03476214408874512,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju3381d8bz3h07991xtl7ra0.jpg",
+      "time_sec": 0.03478813171386719,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju33mirdc8mj0799k33wzoes.jpg",
+      "time_sec": 0.03610086441040039,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju33x0f22peh0988g0ln7w5v.jpg",
+      "time_sec": 0.035006046295166016,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju34c1xfyz920993itxkkfad.jpg",
+      "time_sec": 0.035491228103637695,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju34repocy5208780gswillm.jpg",
+      "time_sec": 0.03407144546508789,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju3518w2d838079939fqztbc.jpg",
+      "time_sec": 0.03191852569580078,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju358pwtdby20878cg7nm0np.jpg",
+      "time_sec": 0.03092813491821289,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju3v0fl3gwce0755qkjhzmd4.jpg",
+      "time_sec": 0.034759521484375,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju3xvoo2iqlc0817eku2r3wl.jpg",
+      "time_sec": 0.03379940986633301,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju3y21quj0ir0818kgjagr15.jpg",
+      "time_sec": 0.03552865982055664,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju40taxlkrho0987smigg0x0.jpg",
+      "time_sec": 0.027953386306762695,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju426tomlhll0818fc0i7nvh.jpg",
+      "time_sec": 0.03204154968261719,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju42py9mlqyd0818u3d1d7ga.jpg",
+      "time_sec": 0.03219723701477051,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju43h43am1dy08176gwfhmnt.jpg",
+      "time_sec": 0.035028934478759766,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju45rj7ln8980850a7821fov.jpg",
+      "time_sec": 0.038292884826660156,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5bbtwsa8cl0987wgfsqpao.jpg",
+      "time_sec": 0.03768658638000488,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5bf6hxa6m50817rbwettgu.jpg",
+      "time_sec": 0.03568100929260254,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5cetivauok0987ok3e5bre.jpg",
+      "time_sec": 0.03204989433288574,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5ddda9bkkt0850enzwatb1.jpg",
+      "time_sec": 0.03192448616027832,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5enq1tcn1i0755hnkon787.jpg",
+      "time_sec": 0.0337376594543457,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5eq8c8ck690850vix98hv3.jpg",
+      "time_sec": 0.0332181453704834,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5eyfe9cpk90987laa7tsl3.jpg",
+      "time_sec": 0.03538942337036133,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5fu081d8gc0818l3yylujk.jpg",
+      "time_sec": 0.03543353080749512,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5fydrud94708507vo6oy21.jpg",
+      "time_sec": 0.03574562072753906,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5hqz50e7o90850e0prlpa0.jpg",
+      "time_sec": 0.03398847579956055,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5ht88gedbu0755xrcuddcx.jpg",
+      "time_sec": 0.03512978553771973,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5kre09fhka0850h7b1898j.jpg",
+      "time_sec": 0.0352020263671875,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5nxkujgscq0817l9gss626.jpg",
+      "time_sec": 0.03527975082397461,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5uzmaol56l0817flxh4w9p.jpg",
+      "time_sec": 0.03519749641418457,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5vwbr4lhqn0987a1pji0ux.jpg",
+      "time_sec": 0.0350186824798584,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5vxuc5loxw0818u8xgf45p.jpg",
+      "time_sec": 0.03517723083496094,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5wi6bqlxy90755bu227nvb.jpg",
+      "time_sec": 0.03536558151245117,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5wj0faly5008187n6530af.jpg",
+      "time_sec": 0.03480648994445801,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5x7iskmad90818frchyfwd.jpg",
+      "time_sec": 0.03390669822692871,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju5yjq1pmlgc0801z0t24bly.jpg",
+      "time_sec": 0.03733396530151367,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju6v4szov55u0871qmqz3v8n.jpg",
+      "time_sec": 0.029765605926513672,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju6vvb8svhed0801jjcquh5e.jpg",
+      "time_sec": 0.03203845024108887,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju6xlygpw7bs0818n691jsq4.jpg",
+      "time_sec": 0.03641772270202637,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju6ywm40wdbo0987pbftsvtg.jpg",
+      "time_sec": 0.02998042106628418,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju6z2616wqbk07555bvnuyr1.jpg",
+      "time_sec": 0.030324220657348633,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju76lsehyia10987u54vn8rb.jpg",
+      "time_sec": 0.03226613998413086,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju7787c5yy3l080159mwqsnj.jpg",
+      "time_sec": 0.03258681297302246,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju77b3wyz4160755qis4ljsb.jpg",
+      "time_sec": 0.03359079360961914,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju77re6fz5bb0817vp9redjg.jpg",
+      "time_sec": 0.030988216400146484,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju77t0razbvm080106o56289.jpg",
+      "time_sec": 0.035807132720947266,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju7agj961l2r0818z29iq8yn.jpg",
+      "time_sec": 0.03438448905944824,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju7apr0c1qqm0755s7msqot4.jpg",
+      "time_sec": 0.035036563873291016,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju7d5m0p23kn09871rk7pu3v.jpg",
+      "time_sec": 0.03589367866516113,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju7d7tly27h408016fyp5nr7.jpg",
+      "time_sec": 0.03701663017272949,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju7dda8w2br20818zhsuz8s7.jpg",
+      "time_sec": 0.036557674407958984,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju7ddtz729960801uazp1knc.jpg",
+      "time_sec": 0.031430959701538086,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju7dz5yy2i7z0801ausi7rna.jpg",
+      "time_sec": 0.030521631240844727,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju7ecl9i2i060987xawjp4l0.jpg",
+      "time_sec": 0.03551006317138672,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju7fmvpk2q170987v6i3ola8.jpg",
+      "time_sec": 0.03398609161376953,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju7fnfv02tt90801djnix9m8.jpg",
+      "time_sec": 0.03307366371154785,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju7fpfzq2wyf0818xxd1oziv.jpg",
+      "time_sec": 0.036489009857177734,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju7frtqu2xa20818wq8r9fzf.jpg",
+      "time_sec": 0.03463125228881836,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju83qd0yjyht0817ktkfl268.jpg",
+      "time_sec": 0.036428213119506836,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju83rcnzkbsj0755x5anfrcg.jpg",
+      "time_sec": 0.036377906799316406,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju83yddek68q0850d2x7zfkm.jpg",
+      "time_sec": 0.03372836112976074,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju843yjskhq30818qre4rwm2.jpg",
+      "time_sec": 0.03122091293334961,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju847pxykriq0755268ktrk2.jpg",
+      "time_sec": 0.031937360763549805,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju849c23kgnk0817cgv2hw1e.jpg",
+      "time_sec": 0.03493905067443848,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju85mpuglq8k0818d2it6hzb.jpg",
+      "time_sec": 0.03356456756591797,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju885ikhnmkn09878s2lqtuh.jpg",
+      "time_sec": 0.0332942008972168,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju886ryxnsl50801r93jai7q.jpg",
+      "time_sec": 0.03232574462890625,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju888fr7nveu0818r9uwtiit.jpg",
+      "time_sec": 0.03323173522949219,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju88trl3ogi208716qvti51b.jpg",
+      "time_sec": 0.033826589584350586,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju89y9h0puti0818i5yw29e6.jpg",
+      "time_sec": 0.033968448638916016,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju89z6pqpqfx0817mfv8ixjc.jpg",
+      "time_sec": 0.03448677062988281,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju8a1jtvpt9m081712iwkca7.jpg",
+      "time_sec": 0.043694496154785156,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju8a3nhbpwnb0850d37fo2na.jpg",
+      "time_sec": 0.029736995697021484,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju8abobpqbir08189u01huru.jpg",
+      "time_sec": 0.031464576721191406,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju8aeei7q8k308173n9y4klv.jpg",
+      "time_sec": 0.028383255004882812,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju8amfdtqi4x09871tygrgqe.jpg",
+      "time_sec": 0.028273820877075195,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju8aqq8uqmoq0987hphto9gg.jpg",
+      "time_sec": 0.028150320053100586,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju8b1v3br45u087189kku66u.jpg",
+      "time_sec": 0.028200864791870117,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju8b7aqtr4a00987coba14b7.jpg",
+      "time_sec": 0.028039216995239258,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju8bssulrrcy0987h1vq5060.jpg",
+      "time_sec": 0.02929377555847168,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju8c2rqzs5t80850d0zky5dy.jpg",
+      "time_sec": 0.03415369987487793,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju8c5mxls96t0850wvkvsity.jpg",
+      "time_sec": 0.028989791870117188,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cju8cj10qsrau0871o2dr6ai1.jpg",
+      "time_sec": 0.03106093406677246,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cjyzjzssvd8pq0838f4nolj5l.jpg",
+      "time_sec": 0.027358055114746094,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cjyzk8qieoboa0848ogj51wwm.jpg",
+      "time_sec": 0.028254270553588867,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cjyzu9th0qt4r0a46pyl4zik0.jpg",
+      "time_sec": 0.033298492431640625,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "cjyzurzvohqnr0794es1itzek.jpg",
+      "time_sec": 0.02999711036682129,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "ck2bxlujamu330725szlc2jdu.jpg",
+      "time_sec": 0.027890443801879883,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "ck2bxw18mmz1k0725litqq2mc.jpg",
+      "time_sec": 0.034477949142456055,
+      "detections": 9,
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    }
+  ],
+  "broken_images": []
+}

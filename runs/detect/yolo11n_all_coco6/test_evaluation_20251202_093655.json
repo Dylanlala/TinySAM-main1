@@ -1,0 +1,14 @@
+{
+  "model": "runs/detect/yolo11n_all_coco6/weights/best.pt",
+  "data_config": "configs/all_coco_yolo.yaml",
+  "conf_threshold": 0.25,
+  "iou_threshold": 0.45,
+  "timestamp": "20251202_093655",
+  "metrics": {
+    "mAP50": 0.9885101420254672,
+    "mAP50-95": 0.8212272419228714,
+    "precision": 0.9848428127452438,
+    "recall": 0.973636019773469,
+    "class_mAP50": 0.8212272419228714
+  }
+}

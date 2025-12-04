@@ -1,0 +1,7 @@
+names:
+  0: polyp
+nc: 1
+path: /shared_data/users/huangmanling/yolo_sam/TinySAM-main/all_coco_yolo
+test: test/images
+train: train/images
+val: val/images

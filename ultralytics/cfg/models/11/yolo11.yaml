@@ -1,0 +1,15 @@
+# Ultralytics YOLO11 object detection model with CNN+ViT backbone
+nc: 80  # number of classes
+scales:
+  n: [0.50, 0.25, 1024]
+  s: [0.50, 0.50, 1024]
+  m: [0.50, 1.00, 512]
+  l: [1.00, 1.00, 512]
+  x: [1.00, 1.50, 512]
+
+backbone:
+  - [-1, 1, CNN_ViT_Backbone, [224, 16, 3, 384, 12, 6]]  # img_size, patch_size, in_chans, embed_dim, depth, num_heads
+
+head:
+  - [-1, 1, Conv, [256, 3, 1]]
+  - [-1, 1, Detect, [nc]]

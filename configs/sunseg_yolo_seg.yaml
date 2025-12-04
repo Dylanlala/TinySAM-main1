@@ -1,0 +1,6 @@
+path: /shared_data/users/huangmanling/yolo_sam/TinySAM-main/Kvasir-SEG
+train: /shared_data/users/huangmanling/yolo_sam/TinySAM-main/Kvasir-SEG/kavsir-seg-train.json
+val: /shared_data/users/huangmanling/yolo_sam/TinySAM-main/Kvasir-SEG/kavsir-seg-val.json
+nc: 1
+names:
+  0: polyp

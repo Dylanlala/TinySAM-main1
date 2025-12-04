@@ -1,0 +1,20 @@
+{
+  "image_name": "cju2rz4k434s70855wwx3ddtx",
+  "image_size": [
+    530,
+    612
+  ],
+  "num_detections": 1,
+  "detections": [
+    {
+      "bbox": [
+        218,
+        148,
+        466,
+        404
+      ],
+      "confidence": 0.8604180812835693,
+      "class_id": 0
+    }
+  ]
+}

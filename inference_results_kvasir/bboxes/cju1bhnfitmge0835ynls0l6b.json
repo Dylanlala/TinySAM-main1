@@ -1,0 +1,20 @@
+{
+  "image_name": "cju1bhnfitmge0835ynls0l6b",
+  "image_size": [
+    531,
+    622
+  ],
+  "num_detections": 1,
+  "detections": [
+    {
+      "bbox": [
+        368,
+        227,
+        605,
+        391
+      ],
+      "confidence": 0.8886568546295166,
+      "class_id": 0
+    }
+  ]
+}

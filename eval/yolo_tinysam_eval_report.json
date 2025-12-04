@@ -1,0 +1,4388 @@
+{
+  "summary": {
+    "total_images": 150,
+    "skipped_broken": 0,
+    "total_time_sec": 10.50195026397705,
+    "avg_time_per_image_sec": 0.07001300175984701,
+    "fps_avg_latency": 14.2830613580906,
+    "fps_throughput": 14.2830613580906,
+    "total_detections": 158,
+    "total_yolo_detections": 165,
+    "avg_detections": 1.0533333333333332,
+    "avg_yolo_detections": 1.1,
+    "avg_dice": 0.5930938374646574,
+    "avg_iou": 0.4498791373799319,
+    "mDice": 0.5930938374646574,
+    "mIoU": 0.4498791373799319,
+    "avg_precision": 0.522484732130816,
+    "avg_recall": 0.7419927864138152,
+    "avg_f1": 0.0,
+    "total_tp": 6151307,
+    "total_fp": 5698357,
+    "total_fn": 1920891,
+    "min_conf_for_sam": 0.3,
+    "use_min_conf_filter": true,
+    "specificity": 0.0,
+    "positive_metrics": {
+      "dice": 0.5930938374646574,
+      "iou": 0.4498791373799319,
+      "precision": 0.522484732130816,
+      "recall": 0.7419927864138152,
+      "f1": 0.0,
+      "tp": 6151307,
+      "fp": 5698357,
+      "fn": 1920891
+    },
+    "negative_metrics": {
+      "num_negative_images": 0,
+      "tn_images": 0,
+      "fp_images": 0,
+      "specificity": 0.0
+    }
+  },
+  "results": [
+    {
+      "image": "cju0qx73cjw570799j4n5cjze.jpg",
+      "time_sec": 0.9355611801147461,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            237,
+            9,
+            438,
+            298
+          ],
+          "confidence": 0.45248574018478394,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            146,
+            11,
+            481,
+            452
+          ],
+          "confidence": 0.33200421929359436,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6767068190510658,
+        "iou": 0.5113808706894408,
+        "precision": 0.5929286450413312,
+        "recall": 0.7880555555555555,
+        "tp": 82273,
+        "fp": 56484,
+        "fn": 22127,
+        "tn": 166567
+      }
+    },
+    {
+      "image": "cju0tl3uz8blh0993wxvn7ly3.jpg",
+      "time_sec": 0.050835609436035156,
+      "detections": 0,
+      "yolo_detections": 0,
+      "yolo_detections_info": [],
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1735,
+        "tn": 327303
+      }
+    },
+    {
+      "image": "cju16d65tzw9d0799ouslsw25.jpg",
+      "time_sec": 0.10916733741760254,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            237,
+            207,
+            351,
+            371
+          ],
+          "confidence": 0.9311605095863342,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7691251201758,
+        "iou": 0.624860522204865,
+        "precision": 0.6506710044733631,
+        "recall": 0.9403072789858115,
+        "tp": 11200,
+        "fp": 6013,
+        "fn": 711,
+        "tn": 237006
+      }
+    },
+    {
+      "image": "cju16whaj0e7n0855q7b6cjkm.jpg",
+      "time_sec": 0.06618976593017578,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            146,
+            48,
+            626,
+            547
+          ],
+          "confidence": 0.6993264555931091,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.3893160014715732,
+        "iou": 0.24170849268215547,
+        "precision": 0.3356320904322368,
+        "recall": 0.4634431181431283,
+        "tp": 41271,
+        "fp": 81694,
+        "fn": 47782,
+        "tn": 171675
+      }
+    },
+    {
+      "image": "cju17otoe119u0799nqcbl8n1.jpg",
+      "time_sec": 0.06361579895019531,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            99,
+            82,
+            510,
+            511
+          ],
+          "confidence": 0.6327517032623291,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.777563972160063,
+        "iou": 0.6360774342801646,
+        "precision": 0.8555942901177939,
+        "recall": 0.7125768633635285,
+        "tp": 116579,
+        "fp": 19676,
+        "fn": 47023,
+        "tn": 81931
+      }
+    },
+    {
+      "image": "cju1819curo000988pd5xcqme.jpg",
+      "time_sec": 0.11030983924865723,
+      "detections": 1,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            236,
+            262,
+            484,
+            527
+          ],
+          "confidence": 0.713594377040863,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            14,
+            105,
+            424,
+            514
+          ],
+          "confidence": 0.2688159644603729,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.41469489414694893,
+        "iou": 0.2615868028279654,
+        "precision": 0.3849420752393637,
+        "recall": 0.4494322682862424,
+        "tp": 15318,
+        "fp": 24475,
+        "fn": 18765,
+        "tn": 258842
+      }
+    },
+    {
+      "image": "cju1c8ffau5770835g0g343o8.jpg",
+      "time_sec": 0.06500482559204102,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            137,
+            0,
+            622,
+            518
+          ],
+          "confidence": 0.3265593945980072,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.08949029841323287,
+        "iou": 0.046841059398393545,
+        "precision": 0.0470666885080422,
+        "recall": 0.9071593139346361,
+        "tp": 10631,
+        "fp": 215240,
+        "fn": 1088,
+        "tn": 102079
+      }
+    },
+    {
+      "image": "cju1cdxvz48hw0801i0fjwcnk.jpg",
+      "time_sec": 0.0605320930480957,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            291,
+            228,
+            463,
+            403
+          ],
+          "confidence": 0.9018704295158386,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.682328631749169,
+        "iou": 0.5178291402468126,
+        "precision": 0.5889423076923077,
+        "recall": 0.8109118086696562,
+        "tp": 15190,
+        "fp": 10602,
+        "fn": 3542,
+        "tn": 262051
+      }
+    },
+    {
+      "image": "cju1cnnziug1l0835yh4ropyg.jpg",
+      "time_sec": 0.09866619110107422,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            227,
+            150,
+            459,
+            419
+          ],
+          "confidence": 0.30998101830482483,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7262563689014332,
+        "iou": 0.5701746812857924,
+        "precision": 0.7800086610763356,
+        "recall": 0.6794348616302596,
+        "tp": 39626,
+        "fp": 11176,
+        "fn": 18696,
+        "tn": 233172
+      }
+    },
+    {
+      "image": "cju1csmlc4ht10799b8ymmghg.jpg",
+      "time_sec": 0.06653666496276855,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            211,
+            45,
+            462,
+            345
+          ],
+          "confidence": 0.7869263291358948,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6407195920783759,
+        "iou": 0.4713667528380353,
+        "precision": 0.5498828118597676,
+        "recall": 0.767506233843479,
+        "tp": 33550,
+        "fp": 27463,
+        "fn": 10163,
+        "tn": 262976
+      }
+    },
+    {
+      "image": "cju1dg44i4z3w0801nyz4p6zf.jpg",
+      "time_sec": 0.05130290985107422,
+      "detections": 0,
+      "yolo_detections": 0,
+      "yolo_detections_info": [],
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 2908,
+        "tn": 326036
+      }
+    },
+    {
+      "image": "cju1dhfok4mhe0878jlgrag0h.jpg",
+      "time_sec": 0.06508851051330566,
+      "detections": 1,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            196,
+            168,
+            353,
+            368
+          ],
+          "confidence": 0.9081419706344604,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            140,
+            28,
+            626,
+            546
+          ],
+          "confidence": 0.26434946060180664,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.725604361691184,
+        "iou": 0.5693713473894934,
+        "precision": 0.6354823597246748,
+        "recall": 0.845512082853855,
+        "tp": 17634,
+        "fp": 10115,
+        "fn": 3222,
+        "tn": 310825
+      }
+    },
+    {
+      "image": "cju1djtprvd7b0988thwwrg09.jpg",
+      "time_sec": 0.06474184989929199,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            393,
+            270,
+            529,
+            482
+          ],
+          "confidence": 0.8738086223602295,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5933090217218963,
+        "iou": 0.42177637511271415,
+        "precision": 0.5842310694769711,
+        "recall": 0.6026735384119826,
+        "tp": 11226,
+        "fp": 7989,
+        "fn": 7401,
+        "tn": 285494
+      }
+    },
+    {
+      "image": "cju1dq3x1vgx109889c7wyirg.jpg",
+      "time_sec": 0.10929679870605469,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            189,
+            99,
+            391,
+            353
+          ],
+          "confidence": 0.8299108147621155,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6615560486853608,
+        "iou": 0.4942725080385852,
+        "precision": 0.6134487316988003,
+        "recall": 0.7178506800537038,
+        "tp": 24595,
+        "fp": 15498,
+        "fn": 9667,
+        "tn": 266761
+      }
+    },
+    {
+      "image": "cju1efbr0rqxz09931z0lf4vf.jpg",
+      "time_sec": 0.06219840049743652,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            336,
+            61,
+            601,
+            489
+          ],
+          "confidence": 0.3732859790325165,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.32430871774566095,
+        "iou": 0.1935372709639942,
+        "precision": 0.1937261008396736,
+        "recall": 0.994988864142539,
+        "tp": 19657,
+        "fp": 81811,
+        "fn": 99,
+        "tn": 227471
+      }
+    },
+    {
+      "image": "cju1f15k3w4ct0835cmde6ypo.jpg",
+      "time_sec": 0.10220527648925781,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            252,
+            233,
+            513,
+            510
+          ],
+          "confidence": 0.8579713106155396,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5198531351684109,
+        "iou": 0.3512172660160718,
+        "precision": 0.47272036626082087,
+        "recall": 0.5774255781581967,
+        "tp": 23645,
+        "fp": 26374,
+        "fn": 17304,
+        "tn": 245561
+      }
+    },
+    {
+      "image": "cju1ftaji6isw0855108yqcse.jpg",
+      "time_sec": 0.059598445892333984,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            281,
+            108,
+            560,
+            502
+          ],
+          "confidence": 0.3695739209651947,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5475971226862046,
+        "iou": 0.37702839290636775,
+        "precision": 0.37803923013847557,
+        "recall": 0.9929579168985795,
+        "tp": 41032,
+        "fp": 67507,
+        "fn": 291,
+        "tn": 173294
+      }
+    },
+    {
+      "image": "cju1fuoa4wmc50835qfd11sp9.jpg",
+      "time_sec": 0.059700727462768555,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            486,
+            146,
+            621,
+            413
+          ],
+          "confidence": 0.7573782801628113,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7857117916128357,
+        "iou": 0.6470554405337015,
+        "precision": 0.7393218556972007,
+        "recall": 0.838313091423888,
+        "tp": 22502,
+        "fp": 7934,
+        "fn": 4340,
+        "tn": 293112
+      }
+    },
+    {
+      "image": "cju1h5w4wxajx0835mc954kxy.jpg",
+      "time_sec": 0.06388545036315918,
+      "detections": 1,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            143,
+            99,
+            327,
+            342
+          ],
+          "confidence": 0.6560617685317993,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            118,
+            95,
+            472,
+            528
+          ],
+          "confidence": 0.269955039024353,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6225384742677478,
+        "iou": 0.45194617972128787,
+        "precision": 0.5760749724366042,
+        "recall": 0.6771545827633378,
+        "tp": 18810,
+        "fp": 13842,
+        "fn": 8968,
+        "tn": 286796
+      }
+    },
+    {
+      "image": "cju2hugv9vget0799hhk7ksvg.jpg",
+      "time_sec": 0.050664424896240234,
+      "detections": 0,
+      "yolo_detections": 0,
+      "yolo_detections_info": [],
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 5195,
+        "tn": 319082
+      }
+    },
+    {
+      "image": "cju2hw5gjlr5h0988so2qqres.jpg",
+      "time_sec": 0.06529641151428223,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            166,
+            103,
+            466,
+            424
+          ],
+          "confidence": 0.6957849264144897,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7443797274859658,
+        "iou": 0.592838251962554,
+        "precision": 0.6460422933083249,
+        "recall": 0.8780290666044921,
+        "tp": 56488,
+        "fp": 30949,
+        "fn": 7847,
+        "tn": 233846
+      }
+    },
+    {
+      "image": "cju2i03ptvkiu0799xbbd4det.jpg",
+      "time_sec": 0.06423258781433105,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            288,
+            119,
+            461,
+            373
+          ],
+          "confidence": 0.9026123285293579,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7358871264672529,
+        "iou": 0.5821371982477398,
+        "precision": 0.5909918860738533,
+        "recall": 0.9749082962616094,
+        "tp": 24983,
+        "fp": 17290,
+        "fn": 643,
+        "tn": 273884
+      }
+    },
+    {
+      "image": "cju2i6acqvo6l0799u20fift8.jpg",
+      "time_sec": 0.06737327575683594,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            156,
+            177,
+            391,
+            525
+          ],
+          "confidence": 0.8679905533790588,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5942300357155241,
+        "iou": 0.4227078759774056,
+        "precision": 0.5020286798201286,
+        "recall": 0.7279175958373155,
+        "tp": 34274,
+        "fp": 33997,
+        "fn": 12811,
+        "tn": 259076
+      }
+    },
+    {
+      "image": "cju2nyc5f02m40801ojqbtiea.jpg",
+      "time_sec": 0.08062219619750977,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            228,
+            322,
+            444,
+            531
+          ],
+          "confidence": 0.8685420751571655,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            67,
+            28,
+            467,
+            526
+          ],
+          "confidence": 0.47100305557250977,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.2745900759984723,
+        "iou": 0.1591448340355258,
+        "precision": 0.15924860382467423,
+        "recall": 0.9959221789883268,
+        "tp": 31994,
+        "fp": 168912,
+        "fn": 131,
+        "tn": 129245
+      }
+    },
+    {
+      "image": "cju2omjpeqj5a0988pjdlb8l1.jpg",
+      "time_sec": 0.06598877906799316,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            16,
+            118,
+            390,
+            516
+          ],
+          "confidence": 0.7535690069198608,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6838637194496705,
+        "iou": 0.5195994742761134,
+        "precision": 0.5263605792327225,
+        "recall": 0.9758754071661238,
+        "tp": 76696,
+        "fp": 69014,
+        "fn": 1896,
+        "tn": 152374
+      }
+    },
+    {
+      "image": "cju2qh5le1ock0878oahaql7d.jpg",
+      "time_sec": 0.0650186538696289,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            300,
+            197,
+            541,
+            510
+          ],
+          "confidence": 0.9133053421974182,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6656473275382017,
+        "iou": 0.498854119511091,
+        "precision": 0.5953872389281916,
+        "recall": 0.7547085009845047,
+        "tp": 35263,
+        "fp": 23964,
+        "fn": 11461,
+        "tn": 258972
+      }
+    },
+    {
+      "image": "cju2qxxko229x08786gvxxhur.jpg",
+      "time_sec": 0.07891631126403809,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            52,
+            0,
+            474,
+            410
+          ],
+          "confidence": 0.47861170768737793,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            309,
+            294,
+            427,
+            424
+          ],
+          "confidence": 0.40377700328826904,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.646247284375446,
+        "iou": 0.4773746910471014,
+        "precision": 0.5102799759591305,
+        "recall": 0.8809935578710709,
+        "tp": 81506,
+        "fp": 78222,
+        "fn": 11010,
+        "tn": 85782
+      }
+    },
+    {
+      "image": "cju2raxlosl630988jdbfy9b0.jpg",
+      "time_sec": 0.06623506546020508,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            95,
+            236,
+            500,
+            528
+          ],
+          "confidence": 0.3795149326324463,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7108953789519978,
+        "iou": 0.5514644562937505,
+        "precision": 0.747977697545816,
+        "recall": 0.6773162278205991,
+        "tp": 65466,
+        "fp": 22058,
+        "fn": 31189,
+        "tn": 175383
+      }
+    },
+    {
+      "image": "cju2rpa30t07b0835im0erql0.jpg",
+      "time_sec": 0.06238508224487305,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            133,
+            162,
+            314,
+            430
+          ],
+          "confidence": 0.8441108465194702,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6784148397976392,
+        "iou": 0.5133341839989792,
+        "precision": 0.6313889615485221,
+        "recall": 0.7330094139082903,
+        "tp": 24138,
+        "fp": 14092,
+        "fn": 8792,
+        "tn": 281487
+      }
+    },
+    {
+      "image": "cju2rqo702wpx0855fn7d5cxh.jpg",
+      "time_sec": 0.0584566593170166,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            325,
+            186,
+            449,
+            306
+          ],
+          "confidence": 0.876559317111969,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7595102754700481,
+        "iou": 0.6122664786746563,
+        "precision": 0.6521739130434783,
+        "recall": 0.9091384905265362,
+        "tp": 8685,
+        "fp": 4632,
+        "fn": 868,
+        "tn": 314324
+      }
+    },
+    {
+      "image": "cju2rxm8rpbaf0993o3qr2oph.jpg",
+      "time_sec": 0.06095075607299805,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            326,
+            213,
+            419,
+            435
+          ],
+          "confidence": 0.9045923948287964,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7872615384615385,
+        "iou": 0.6491601968843558,
+        "precision": 0.6721836906263136,
+        "recall": 0.9498811998811999,
+        "tp": 12793,
+        "fp": 6239,
+        "fn": 675,
+        "tn": 283494
+      }
+    },
+    {
+      "image": "cju2s16zp317h0799gr67jqc2.jpg",
+      "time_sec": 0.05909109115600586,
+      "detections": 1,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            28,
+            58,
+            501,
+            459
+          ],
+          "confidence": 0.6565524339675903,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            389,
+            335,
+            466,
+            410
+          ],
+          "confidence": 0.26290059089660645,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6652302340340512,
+        "iou": 0.49838575235680155,
+        "precision": 0.5267847171379999,
+        "recall": 0.9023892526145736,
+        "tp": 84904,
+        "fp": 76270,
+        "fn": 9184,
+        "tn": 159924
+      }
+    },
+    {
+      "image": "cju2s9g11pnra0993gn4eh793.jpg",
+      "time_sec": 0.06992197036743164,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            160,
+            48,
+            620,
+            530
+          ],
+          "confidence": 0.6962584257125854,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            137,
+            260,
+            470,
+            530
+          ],
+          "confidence": 0.420468270778656,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7350460804896275,
+        "iou": 0.581085262595291,
+        "precision": 0.68459600980977,
+        "recall": 0.7935233558696988,
+        "tp": 123942,
+        "fp": 57102,
+        "fn": 32250,
+        "tn": 116366
+      }
+    },
+    {
+      "image": "cju2sggy13na70855tbeoqgha.jpg",
+      "time_sec": 0.06758546829223633,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            190,
+            144,
+            559,
+            525
+          ],
+          "confidence": 0.642814576625824,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6409409000866042,
+        "iou": 0.4716063489273184,
+        "precision": 0.5111134043532792,
+        "recall": 0.8591806778756338,
+        "tp": 64387,
+        "fp": 61587,
+        "fn": 10553,
+        "tn": 159743
+      }
+    },
+    {
+      "image": "cju2t3ibkuecr0835o7si16zv.jpg",
+      "time_sec": 0.06559467315673828,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            248,
+            209,
+            385,
+            347
+          ],
+          "confidence": 0.8272882699966431,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7023749368367862,
+        "iou": 0.5412772585669782,
+        "precision": 0.6361140167364017,
+        "recall": 0.7840451248992748,
+        "tp": 9730,
+        "fp": 5566,
+        "fn": 2680,
+        "tn": 306914
+      }
+    },
+    {
+      "image": "cju2trbpkv0c00988hxla5dzz.jpg",
+      "time_sec": 0.06513547897338867,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            93,
+            37,
+            403,
+            298
+          ],
+          "confidence": 0.8721073865890503,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7289086929330831,
+        "iou": 0.5734510879592615,
+        "precision": 0.6626725228490612,
+        "recall": 0.8098563413066514,
+        "tp": 46621,
+        "fp": 23732,
+        "fn": 10946,
+        "tn": 242611
+      }
+    },
+    {
+      "image": "cju2tvrvm53ws0801a0jfjdxg.jpg",
+      "time_sec": 0.06674480438232422,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            1,
+            62,
+            428,
+            209
+          ],
+          "confidence": 0.445652037858963,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7896535187627383,
+        "iou": 0.6524193947798524,
+        "precision": 0.6570620999251808,
+        "recall": 0.989285803689889,
+        "tp": 39519,
+        "fp": 20626,
+        "fn": 428,
+        "tn": 241035
+      }
+    },
+    {
+      "image": "cju2tzypl4wss0799ow05oxb9.jpg",
+      "time_sec": 0.06554913520812988,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            208,
+            181,
+            614,
+            531
+          ],
+          "confidence": 0.7897106409072876,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7602977489890134,
+        "iou": 0.6132906093934932,
+        "precision": 0.6364780251056054,
+        "recall": 0.9439285555604923,
+        "tp": 84980,
+        "fp": 48536,
+        "fn": 5048,
+        "tn": 191718
+      }
+    },
+    {
+      "image": "cju2ulk385h170799rlklxob0.jpg",
+      "time_sec": 0.06527590751647949,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            231,
+            65,
+            570,
+            416
+          ],
+          "confidence": 0.7463114857673645,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7108087619199617,
+        "iou": 0.5513602178824549,
+        "precision": 0.7207954442005604,
+        "recall": 0.7010950305486959,
+        "tp": 71260,
+        "fp": 27603,
+        "fn": 30381,
+        "tn": 185444
+      }
+    },
+    {
+      "image": "cju2wxv0hxs2f09884w48v8fi.jpg",
+      "time_sec": 0.05243563652038574,
+      "detections": 0,
+      "yolo_detections": 0,
+      "yolo_detections_info": [],
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 5619,
+        "tn": 323419
+      }
+    },
+    {
+      "image": "cju2xd75m82720801q4s4ik3n.jpg",
+      "time_sec": 0.06998753547668457,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            386,
+            280,
+            888,
+            862
+          ],
+          "confidence": 0.8950591683387756,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5158499156875767,
+        "iou": 0.34757260814802265,
+        "precision": 0.41422520683828207,
+        "recall": 0.6835498964263468,
+        "tp": 94375,
+        "fp": 133460,
+        "fn": 43691,
+        "tn": 961894
+      }
+    },
+    {
+      "image": "cju2xyd9vyi7m098831qcucse.jpg",
+      "time_sec": 0.051619768142700195,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            180,
+            6,
+            449,
+            506
+          ],
+          "confidence": 0.60091632604599,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6160852568125421,
+        "iou": 0.4451757305464954,
+        "precision": 0.5323204887124536,
+        "recall": 0.7311350405859685,
+        "tp": 53503,
+        "fp": 47006,
+        "fn": 19675,
+        "tn": 208232
+      }
+    },
+    {
+      "image": "cju2yljr0yzhw0988ecf271ly.jpg",
+      "time_sec": 0.07522892951965332,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            183,
+            69,
+            823,
+            687
+          ],
+          "confidence": 0.3035653829574585,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.782642702791406,
+        "iou": 0.6429030364265359,
+        "precision": 0.6833846228014495,
+        "recall": 0.9156337694587786,
+        "tp": 255156,
+        "fp": 118215,
+        "fn": 23510,
+        "tn": 834099
+      }
+    },
+    {
+      "image": "cju2ysg748ru80878sp6j0gm0.jpg",
+      "time_sec": 0.056491851806640625,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            93,
+            102,
+            412,
+            541
+          ],
+          "confidence": 0.7881061434745789,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7784764014470353,
+        "iou": 0.6372995187069904,
+        "precision": 0.6506649207656621,
+        "recall": 0.9687748941344179,
+        "tp": 92425,
+        "fp": 49622,
+        "fn": 2979,
+        "tn": 167858
+      }
+    },
+    {
+      "image": "cju2yyhsp933j0855hp32e012.jpg",
+      "time_sec": 0.1089475154876709,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            368,
+            50,
+            589,
+            428
+          ],
+          "confidence": 0.7380843162536621,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            91,
+            0,
+            565,
+            427
+          ],
+          "confidence": 0.44442018866539,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.4083262960309615,
+        "iou": 0.2565389470296258,
+        "precision": 0.2571376723929349,
+        "recall": 0.9910053423992229,
+        "tp": 51012,
+        "fp": 147372,
+        "fn": 463,
+        "tn": 59108
+      }
+    },
+    {
+      "image": "cju2z1nxlzaj40835wj81s1iy.jpg",
+      "time_sec": 0.05748629570007324,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            166,
+            38,
+            437,
+            408
+          ],
+          "confidence": 0.5972118973731995,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.775877281052433,
+        "iou": 0.633823120054082,
+        "precision": 0.6973322978988702,
+        "recall": 0.8743622798837017,
+        "tp": 63755,
+        "fp": 27672,
+        "fn": 9161,
+        "tn": 229694
+      }
+    },
+    {
+      "image": "cju2zblxw9848087853csbrx1.jpg",
+      "time_sec": 0.0629110336303711,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            276,
+            117,
+            463,
+            364
+          ],
+          "confidence": 0.8412370681762695,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.656927182615326,
+        "iou": 0.4891225361068217,
+        "precision": 0.5845840683946262,
+        "recall": 0.7497041420118343,
+        "tp": 21539,
+        "fp": 15306,
+        "fn": 7191,
+        "tn": 266544
+      }
+    },
+    {
+      "image": "cju2zgbj9zmrw0835nnlzxj4c.jpg",
+      "time_sec": 0.06113839149475098,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            103,
+            38,
+            508,
+            481
+          ],
+          "confidence": 0.6623175144195557,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7004023763612247,
+        "iou": 0.5389378709389687,
+        "precision": 0.5641395490809846,
+        "recall": 0.9234544920152836,
+        "tp": 94257,
+        "fp": 72824,
+        "fn": 7813,
+        "tn": 154050
+      }
+    },
+    {
+      "image": "cju2zi4l09f5807991s8do2b2.jpg",
+      "time_sec": 0.06366848945617676,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            174,
+            92,
+            424,
+            272
+          ],
+          "confidence": 0.8249099254608154,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7028616638552598,
+        "iou": 0.5418555941722099,
+        "precision": 0.7029141287471635,
+        "recall": 0.7028092067946383,
+        "tp": 23542,
+        "fp": 9950,
+        "fn": 9955,
+        "tn": 286213
+      }
+    },
+    {
+      "image": "cju2zkpdl9h7t0799ix60teqg.jpg",
+      "time_sec": 0.061379194259643555,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            283,
+            7,
+            611,
+            519
+          ],
+          "confidence": 0.45836928486824036,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.19058956617821157,
+        "iou": 0.10533241248954964,
+        "precision": 0.10572285420330252,
+        "recall": 0.9661265586450624,
+        "tp": 14489,
+        "fp": 122558,
+        "fn": 508,
+        "tn": 185053
+      }
+    },
+    {
+      "image": "cju2zo0fwzv580988qlijd2xa.jpg",
+      "time_sec": 0.05474853515625,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            248,
+            129,
+            408,
+            325
+          ],
+          "confidence": 0.33852502703666687,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.46342157699971537,
+        "iou": 0.30159318266024454,
+        "precision": 0.564283048045646,
+        "recall": 0.39314905632337643,
+        "tp": 10582,
+        "fp": 8171,
+        "fn": 16334,
+        "tn": 291393
+      }
+    },
+    {
+      "image": "cju2zpw4q9vzr0801p0lysjdl.jpg",
+      "time_sec": 0.05672264099121094,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            235,
+            145,
+            341,
+            300
+          ],
+          "confidence": 0.7752770185470581,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7243455716316802,
+        "iou": 0.5678227233986757,
+        "precision": 0.6462950526080143,
+        "recall": 0.8238371539998097,
+        "tp": 8661,
+        "fp": 4740,
+        "fn": 1852,
+        "tn": 315077
+      }
+    },
+    {
+      "image": "cju30ajhw09sx0988qyahx9s8.jpg",
+      "time_sec": 0.06988096237182617,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            156,
+            164,
+            332,
+            326
+          ],
+          "confidence": 0.6582606434822083,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            141,
+            148,
+            524,
+            530
+          ],
+          "confidence": 0.5718798637390137,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.4499830844328452,
+        "iou": 0.29030849916124646,
+        "precision": 0.4094011080819629,
+        "recall": 0.49949570815450645,
+        "tp": 46553,
+        "fp": 67157,
+        "fn": 46647,
+        "tn": 169303
+      }
+    },
+    {
+      "image": "cju30ia8da2bq0799klnehml2.jpg",
+      "time_sec": 0.06341910362243652,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            100,
+            250,
+            502,
+            531
+          ],
+          "confidence": 0.7473887801170349,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.4591566325759484,
+        "iou": 0.29799046566527815,
+        "precision": 0.7121936734183546,
+        "recall": 0.33878786076457557,
+        "tp": 45569,
+        "fp": 18415,
+        "fn": 88937,
+        "tn": 150280
+      }
+    },
+    {
+      "image": "cju30k2z40ds308353kdew70n.jpg",
+      "time_sec": 0.06478190422058105,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            199,
+            241,
+            393,
+            453
+          ],
+          "confidence": 0.9328110814094543,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.686037747951444,
+        "iou": 0.5221137417622651,
+        "precision": 0.6316364495364082,
+        "recall": 0.7506931040533427,
+        "tp": 21391,
+        "fp": 12475,
+        "fn": 7104,
+        "tn": 285334
+      }
+    },
+    {
+      "image": "cju30ov1oah920801mi8thuyg.jpg",
+      "time_sec": 0.04892849922180176,
+      "detections": 0,
+      "yolo_detections": 0,
+      "yolo_detections_info": [],
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 9466,
+        "tn": 293164
+      }
+    },
+    {
+      "image": "cju30qbm1ad3x0855znuhpz9u.jpg",
+      "time_sec": 0.05893111228942871,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            64,
+            147,
+            424,
+            526
+          ],
+          "confidence": 0.8784326314926147,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.8087004242197232,
+        "iou": 0.6788388417665984,
+        "precision": 0.7233754090696587,
+        "recall": 0.9168460763593987,
+        "tp": 92838,
+        "fp": 35502,
+        "fn": 8420,
+        "tn": 192278
+      }
+    },
+    {
+      "image": "cju323ypb1fbb0988gx5rzudb.jpg",
+      "time_sec": 0.06117701530456543,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            87,
+            173,
+            493,
+            530
+          ],
+          "confidence": 0.7842357754707336,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7829180898801152,
+        "iou": 0.6432747733494751,
+        "precision": 0.7976084879912664,
+        "recall": 0.7687590424832303,
+        "tp": 93518,
+        "fp": 23730,
+        "fn": 28130,
+        "tn": 174742
+      }
+    },
+    {
+      "image": "cju324q101fhe08350wae9cif.jpg",
+      "time_sec": 0.060727596282958984,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            148,
+            39,
+            314,
+            313
+          ],
+          "confidence": 0.6838971376419067,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.622912384867169,
+        "iou": 0.4523404161231123,
+        "precision": 0.6105407663841471,
+        "recall": 0.6357957547316406,
+        "tp": 20458,
+        "fp": 13050,
+        "fn": 11719,
+        "tn": 282313
+      }
+    },
+    {
+      "image": "cju326h4v1gxw08352px40p7r.jpg",
+      "time_sec": 0.0601193904876709,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            149,
+            90,
+            520,
+            528
+          ],
+          "confidence": 0.6742854118347168,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6735581494143589,
+        "iou": 0.5077931981088912,
+        "precision": 0.6841062813843208,
+        "recall": 0.66333035828127,
+        "tp": 83240,
+        "fp": 38437,
+        "fn": 42248,
+        "tn": 161323
+      }
+    },
+    {
+      "image": "cju32srle1xfq083575i3fl75.jpg",
+      "time_sec": 0.061536312103271484,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            367,
+            119,
+            506,
+            314
+          ],
+          "confidence": 0.836089015007019,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6059996648231942,
+        "iou": 0.43471988458764127,
+        "precision": 0.6291196500472237,
+        "recall": 0.5845187511546277,
+        "tp": 12656,
+        "fp": 7461,
+        "fn": 8996,
+        "tn": 313309
+      }
+    },
+    {
+      "image": "cju32zhbnc1oy0801iyv1ix6p.jpg",
+      "time_sec": 0.06085824966430664,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            273,
+            11,
+            617,
+            493
+          ],
+          "confidence": 0.5848789811134338,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6160908164005341,
+        "iou": 0.4451815362610127,
+        "precision": 0.47818284162776065,
+        "recall": 0.8657825951416033,
+        "tp": 72208,
+        "fp": 78797,
+        "fn": 11194,
+        "tn": 168083
+      }
+    },
+    {
+      "image": "cju3381d8bz3h07991xtl7ra0.jpg",
+      "time_sec": 0.060944318771362305,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            174,
+            124,
+            312,
+            316
+          ],
+          "confidence": 0.46790236234664917,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7036608669415669,
+        "iou": 0.5428061600527562,
+        "precision": 0.5649172385950747,
+        "recall": 0.9327423010265298,
+        "tp": 13993,
+        "fp": 10777,
+        "fn": 1009,
+        "tn": 273597
+      }
+    },
+    {
+      "image": "cju33mirdc8mj0799k33wzoes.jpg",
+      "time_sec": 0.06093287467956543,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            242,
+            202,
+            549,
+            547
+          ],
+          "confidence": 0.7018381953239441,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5594889460988618,
+        "iou": 0.38839614911921344,
+        "precision": 0.49025894276886484,
+        "recall": 0.6514859989692493,
+        "tp": 37923,
+        "fp": 39430,
+        "fn": 20287,
+        "tn": 244782
+      }
+    },
+    {
+      "image": "cju33x0f22peh0988g0ln7w5v.jpg",
+      "time_sec": 0.061759233474731445,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            286,
+            210,
+            395,
+            316
+          ],
+          "confidence": 0.7984990477561951,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.8397626112759644,
+        "iou": 0.7237851662404092,
+        "precision": 0.7588584562344378,
+        "recall": 0.939976275207592,
+        "tp": 7924,
+        "fp": 2518,
+        "fn": 506,
+        "tn": 304268
+      }
+    },
+    {
+      "image": "cju34c1xfyz920993itxkkfad.jpg",
+      "time_sec": 0.06389021873474121,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            105,
+            155,
+            466,
+            504
+          ],
+          "confidence": 0.6646657586097717,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6197899075478719,
+        "iou": 0.4490547569078647,
+        "precision": 0.5405669892054362,
+        "recall": 0.726221459043224,
+        "tp": 54134,
+        "fp": 46009,
+        "fn": 20408,
+        "tn": 169009
+      }
+    },
+    {
+      "image": "cju34repocy5208780gswillm.jpg",
+      "time_sec": 0.06476950645446777,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            37,
+            274,
+            431,
+            529
+          ],
+          "confidence": 0.46706897020339966,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7964966384999692,
+        "iou": 0.6618150509419651,
+        "precision": 0.7304733460041632,
+        "recall": 0.8756407822289729,
+        "tp": 64568,
+        "fp": 23824,
+        "fn": 9170,
+        "tn": 231476
+      }
+    },
+    {
+      "image": "cju3518w2d838079939fqztbc.jpg",
+      "time_sec": 0.05422353744506836,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            215,
+            239,
+            529,
+            529
+          ],
+          "confidence": 0.6850702166557312,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.500647079398391,
+        "iou": 0.33390876325335633,
+        "precision": 0.49158567160078304,
+        "recall": 0.5100488187292876,
+        "tp": 28627,
+        "fp": 29607,
+        "fn": 27499,
+        "tn": 243834
+      }
+    },
+    {
+      "image": "cju358pwtdby20878cg7nm0np.jpg",
+      "time_sec": 0.062074899673461914,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            111,
+            158,
+            242,
+            330
+          ],
+          "confidence": 0.9274427890777588,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6660201706749418,
+        "iou": 0.49927304448967724,
+        "precision": 0.5979453247431656,
+        "recall": 0.7515867804771285,
+        "tp": 10302,
+        "fp": 6927,
+        "fn": 3405,
+        "tn": 286134
+      }
+    },
+    {
+      "image": "cju3v0fl3gwce0755qkjhzmd4.jpg",
+      "time_sec": 0.07197284698486328,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            241,
+            148,
+            596,
+            526
+          ],
+          "confidence": 0.36866495013237,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            379,
+            189,
+            583,
+            481
+          ],
+          "confidence": 0.33154675364494324,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6827721471097747,
+        "iou": 0.5183401987831148,
+        "precision": 0.5312248249364814,
+        "recall": 0.9552989357552795,
+        "tp": 68579,
+        "fp": 60517,
+        "fn": 3209,
+        "tn": 196825
+      }
+    },
+    {
+      "image": "cju3xvoo2iqlc0817eku2r3wl.jpg",
+      "time_sec": 0.08818721771240234,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            316,
+            313,
+            446,
+            447
+          ],
+          "confidence": 0.6525478363037109,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.8010702738860604,
+        "iou": 0.6681544851528114,
+        "precision": 0.7266720604099245,
+        "recall": 0.8924401755402832,
+        "tp": 10778,
+        "fp": 4054,
+        "fn": 1299,
+        "tn": 220249
+      }
+    },
+    {
+      "image": "cju3y21quj0ir0818kgjagr15.jpg",
+      "time_sec": 0.06768155097961426,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            164,
+            117,
+            505,
+            465
+          ],
+          "confidence": 0.6302271485328674,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            312,
+            124,
+            493,
+            290
+          ],
+          "confidence": 0.36559247970581055,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.584537785534145,
+        "iou": 0.41296601178063147,
+        "precision": 0.5448314476580299,
+        "recall": 0.6304865106406747,
+        "tp": 56438,
+        "fp": 47150,
+        "fn": 33077,
+        "tn": 205131
+      }
+    },
+    {
+      "image": "cju40taxlkrho0987smigg0x0.jpg",
+      "time_sec": 0.09077262878417969,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            179,
+            161,
+            342,
+            339
+          ],
+          "confidence": 0.7198721170425415,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7395586392984485,
+        "iou": 0.5867457720419584,
+        "precision": 0.7108822112712586,
+        "recall": 0.7706458868894601,
+        "tp": 19186,
+        "fp": 7803,
+        "fn": 5710,
+        "tn": 211747
+      }
+    },
+    {
+      "image": "cju426tomlhll0818fc0i7nvh.jpg",
+      "time_sec": 0.06113243103027344,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            361,
+            172,
+            523,
+            342
+          ],
+          "confidence": 0.7153066992759705,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6892533130086298,
+        "iou": 0.5258478391356542,
+        "precision": 0.6223416063579452,
+        "recall": 0.7722865013774105,
+        "tp": 14017,
+        "fp": 8506,
+        "fn": 4133,
+        "tn": 295952
+      }
+    },
+    {
+      "image": "cju42py9mlqyd0818u3d1d7ga.jpg",
+      "time_sec": 0.09057998657226562,
+      "detections": 0,
+      "yolo_detections": 0,
+      "yolo_detections_info": [],
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 24753,
+        "tn": 211232
+      }
+    },
+    {
+      "image": "cju43h43am1dy08176gwfhmnt.jpg",
+      "time_sec": 0.06212282180786133,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            247,
+            164,
+            362,
+            284
+          ],
+          "confidence": 0.9128735661506653,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.78216526016517,
+        "iou": 0.6422589490847106,
+        "precision": 0.6470544314193982,
+        "recall": 0.9885922883869496,
+        "tp": 8666,
+        "fp": 4727,
+        "fn": 100,
+        "tn": 301327
+      }
+    },
+    {
+      "image": "cju45rj7ln8980850a7821fov.jpg",
+      "time_sec": 0.07518815994262695,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            353,
+            283,
+            519,
+            504
+          ],
+          "confidence": 0.9150183200836182,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            53,
+            107,
+            159,
+            226
+          ],
+          "confidence": 0.8237282633781433,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7450975124912695,
+        "iou": 0.593749331049984,
+        "precision": 0.6892550072064013,
+        "recall": 0.8107863197895352,
+        "tp": 27737,
+        "fp": 12505,
+        "fn": 6473,
+        "tn": 272695
+      }
+    },
+    {
+      "image": "cju5bbtwsa8cl0987wgfsqpao.jpg",
+      "time_sec": 0.06259036064147949,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            309,
+            51,
+            594,
+            350
+          ],
+          "confidence": 0.7290033102035522,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5201403677154255,
+        "iou": 0.3514795297932712,
+        "precision": 0.38148941162667915,
+        "recall": 0.8171195225380871,
+        "tp": 26013,
+        "fp": 42175,
+        "fn": 5822,
+        "tn": 241935
+      }
+    },
+    {
+      "image": "cju5bf6hxa6m50817rbwettgu.jpg",
+      "time_sec": 0.060003042221069336,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            325,
+            101,
+            521,
+            330
+          ],
+          "confidence": 0.862415075302124,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6039797112758486,
+        "iou": 0.4326439351593069,
+        "precision": 0.5662378833140279,
+        "recall": 0.647112101999582,
+        "tp": 18576,
+        "fp": 14230,
+        "fn": 10130,
+        "tn": 287346
+      }
+    },
+    {
+      "image": "cju5cetivauok0987ok3e5bre.jpg",
+      "time_sec": 0.06086540222167969,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            226,
+            205,
+            453,
+            529
+          ],
+          "confidence": 0.8553289771080017,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6224383400633188,
+        "iou": 0.45184063854675566,
+        "precision": 0.5434037834527731,
+        "recall": 0.7283758901435322,
+        "tp": 32833,
+        "fp": 27588,
+        "fn": 12244,
+        "tn": 256902
+      }
+    },
+    {
+      "image": "cju5ddda9bkkt0850enzwatb1.jpg",
+      "time_sec": 0.06429934501647949,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            253,
+            77,
+            419,
+            170
+          ],
+          "confidence": 0.41495281457901,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7759757330637007,
+        "iou": 0.6339545334390695,
+        "precision": 0.7112775265070067,
+        "recall": 0.8536216408613633,
+        "tp": 9593,
+        "fp": 3894,
+        "fn": 1645,
+        "tn": 312408
+      }
+    },
+    {
+      "image": "cju5enq1tcn1i0755hnkon787.jpg",
+      "time_sec": 0.07338476181030273,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            199,
+            178,
+            342,
+            353
+          ],
+          "confidence": 0.46107202768325806,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            176,
+            79,
+            539,
+            547
+          ],
+          "confidence": 0.34827521443367004,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.38999288473266924,
+        "iou": 0.24223053490537746,
+        "precision": 0.2846121748806157,
+        "recall": 0.6192926174767468,
+        "tp": 30694,
+        "fp": 77151,
+        "fn": 18869,
+        "tn": 215708
+      }
+    },
+    {
+      "image": "cju5eq8c8ck690850vix98hv3.jpg",
+      "time_sec": 0.05871248245239258,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            184,
+            0,
+            562,
+            378
+          ],
+          "confidence": 0.6064568161964417,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7645538526788278,
+        "iou": 0.618848384720464,
+        "precision": 0.6953614709569578,
+        "recall": 0.8490379048796522,
+        "tp": 86528,
+        "fp": 37908,
+        "fn": 15385,
+        "tn": 189839
+      }
+    },
+    {
+      "image": "cju5eyfe9cpk90987laa7tsl3.jpg",
+      "time_sec": 0.054732322692871094,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            124,
+            33,
+            486,
+            512
+          ],
+          "confidence": 0.5722063183784485,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6599083416927283,
+        "iou": 0.4924352282934791,
+        "precision": 0.5103716008591787,
+        "recall": 0.9333867485700296,
+        "tp": 83876,
+        "fp": 80467,
+        "fn": 5986,
+        "tn": 159331
+      }
+    },
+    {
+      "image": "cju5fu081d8gc0818l3yylujk.jpg",
+      "time_sec": 0.04614520072937012,
+      "detections": 0,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            50,
+            251,
+            355,
+            531
+          ],
+          "confidence": 0.29001760482788086,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 16868,
+        "tn": 285802
+      }
+    },
+    {
+      "image": "cju5fydrud94708507vo6oy21.jpg",
+      "time_sec": 0.05489850044250488,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            127,
+            0,
+            590,
+            480
+          ],
+          "confidence": 0.7412991523742676,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6903851561985795,
+        "iou": 0.5271665631053767,
+        "precision": 0.5284994503481129,
+        "recall": 0.9952386702779168,
+        "tp": 115382,
+        "fp": 102938,
+        "fn": 552,
+        "tn": 122924
+      }
+    },
+    {
+      "image": "cju5hqz50e7o90850e0prlpa0.jpg",
+      "time_sec": 0.0631260871887207,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            99,
+            86,
+            453,
+            528
+          ],
+          "confidence": 0.31202974915504456,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5795656914410322,
+        "iou": 0.40802005974426386,
+        "precision": 0.41030605549909305,
+        "recall": 0.9865291224597111,
+        "tp": 63787,
+        "fp": 91675,
+        "fn": 871,
+        "tn": 157827
+      }
+    },
+    {
+      "image": "cju5ht88gedbu0755xrcuddcx.jpg",
+      "time_sec": 0.05984759330749512,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            234,
+            60,
+            436,
+            321
+          ],
+          "confidence": 0.5850790143013,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5593697462564022,
+        "iou": 0.38828127120254025,
+        "precision": 0.8162834483939065,
+        "recall": 0.425461682576501,
+        "tp": 28614,
+        "fp": 6440,
+        "fn": 38640,
+        "tn": 264899
+      }
+    },
+    {
+      "image": "cju5kre09fhka0850h7b1898j.jpg",
+      "time_sec": 0.06147575378417969,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            314,
+            98,
+            465,
+            327
+          ],
+          "confidence": 0.7354121208190918,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5858261302439245,
+        "iou": 0.41425325610419533,
+        "precision": 0.5100070916397447,
+        "recall": 0.6881246013183074,
+        "tp": 12945,
+        "fp": 12437,
+        "fn": 5867,
+        "tn": 295055
+      }
+    },
+    {
+      "image": "cju5nxkujgscq0817l9gss626.jpg",
+      "time_sec": 0.05600285530090332,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            91,
+            271,
+            381,
+            525
+          ],
+          "confidence": 0.3599373996257782,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.4495698296024056,
+        "iou": 0.2899645776933748,
+        "precision": 0.4553896268719858,
+        "recall": 0.44389690721649483,
+        "tp": 21529,
+        "fp": 25747,
+        "fn": 26971,
+        "tn": 228423
+      }
+    },
+    {
+      "image": "cju5uzmaol56l0817flxh4w9p.jpg",
+      "time_sec": 0.04993128776550293,
+      "detections": 1,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            312,
+            211,
+            444,
+            388
+          ],
+          "confidence": 0.773297131061554,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            0,
+            3,
+            467,
+            529
+          ],
+          "confidence": 0.25940418243408203,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6551484159883809,
+        "iou": 0.48715294964676237,
+        "precision": 0.5075956489122281,
+        "recall": 0.9236413275317805,
+        "tp": 10826,
+        "fp": 10502,
+        "fn": 895,
+        "tn": 307344
+      }
+    },
+    {
+      "image": "cju5vwbr4lhqn0987a1pji0ux.jpg",
+      "time_sec": 0.06513404846191406,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            78,
+            284,
+            349,
+            512
+          ],
+          "confidence": 0.7770113348960876,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5005662514156285,
+        "iou": 0.3338368580060423,
+        "precision": 0.34570073813364616,
+        "recall": 0.9067829208872933,
+        "tp": 14144,
+        "fp": 26770,
+        "fn": 1454,
+        "tn": 259732
+      }
+    },
+    {
+      "image": "cju5vxuc5loxw0818u8xgf45p.jpg",
+      "time_sec": 0.06151223182678223,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            273,
+            154,
+            484,
+            442
+          ],
+          "confidence": 0.6601108312606812,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7012016474884294,
+        "iou": 0.5398849221917091,
+        "precision": 0.5689283930201712,
+        "recall": 0.9136123482061353,
+        "tp": 33028,
+        "fp": 25025,
+        "fn": 3123,
+        "tn": 280620
+      }
+    },
+    {
+      "image": "cju5wi6bqlxy90755bu227nvb.jpg",
+      "time_sec": 0.06148386001586914,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            235,
+            126,
+            407,
+            354
+          ],
+          "confidence": 0.8359997868537903,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7187867348797166,
+        "iou": 0.561020365967125,
+        "precision": 0.6996841155234657,
+        "recall": 0.7389617021276595,
+        "tp": 21707,
+        "fp": 9317,
+        "fn": 7668,
+        "tn": 290968
+      }
+    },
+    {
+      "image": "cju5wj0faly5008187n6530af.jpg",
+      "time_sec": 0.06203055381774902,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            160,
+            195,
+            341,
+            400
+          ],
+          "confidence": 0.3259824216365814,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6583395608697199,
+        "iou": 0.49069014906371017,
+        "precision": 0.6219323606535333,
+        "recall": 0.6992742667069852,
+        "tp": 18500,
+        "fp": 11246,
+        "fn": 7956,
+        "tn": 264398
+      }
+    },
+    {
+      "image": "cju5x7iskmad90818frchyfwd.jpg",
+      "time_sec": 0.06455063819885254,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            46,
+            71,
+            476,
+            483
+          ],
+          "confidence": 0.5972684025764465,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.3326428314522848,
+        "iou": 0.19950304453485515,
+        "precision": 0.20748919445438385,
+        "recall": 0.8382744378155117,
+        "tp": 36532,
+        "fp": 139535,
+        "fn": 7048,
+        "tn": 69011
+      }
+    },
+    {
+      "image": "cju5yjq1pmlgc0801z0t24bly.jpg",
+      "time_sec": 0.049317121505737305,
+      "detections": 0,
+      "yolo_detections": 0,
+      "yolo_detections_info": [],
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 37571,
+        "tn": 264529
+      }
+    },
+    {
+      "image": "cju6v4szov55u0871qmqz3v8n.jpg",
+      "time_sec": 0.09688973426818848,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            1,
+            110,
+            308,
+            500
+          ],
+          "confidence": 0.5258665084838867,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.775399400898652,
+        "iou": 0.6331855475717271,
+        "precision": 0.6829549826856484,
+        "recall": 0.8967881631180079,
+        "tp": 74550,
+        "fp": 34608,
+        "fn": 8580,
+        "tn": 75772
+      }
+    },
+    {
+      "image": "cju6vvb8svhed0801jjcquh5e.jpg",
+      "time_sec": 0.05968070030212402,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            155,
+            157,
+            224,
+            287
+          ],
+          "confidence": 0.463320255279541,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7165249941511347,
+        "iou": 0.5582695345728521,
+        "precision": 0.575544976196442,
+        "recall": 0.948977483990911,
+        "tp": 4594,
+        "fp": 3388,
+        "fn": 247,
+        "tn": 311891
+      }
+    },
+    {
+      "image": "cju6xlygpw7bs0818n691jsq4.jpg",
+      "time_sec": 0.0756223201751709,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            234,
+            0,
+            570,
+            482
+          ],
+          "confidence": 0.5390021800994873,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            293,
+            217,
+            569,
+            531
+          ],
+          "confidence": 0.3159148395061493,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6790444300064971,
+        "iou": 0.5140554651734706,
+        "precision": 0.5588483290488432,
+        "recall": 0.8651109483938748,
+        "tp": 81522,
+        "fp": 64353,
+        "fn": 12711,
+        "tn": 144084
+      }
+    },
+    {
+      "image": "cju6ywm40wdbo0987pbftsvtg.jpg",
+      "time_sec": 0.05016040802001953,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            210,
+            0,
+            616,
+            417
+          ],
+          "confidence": 0.477811723947525,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.3338738584962021,
+        "iou": 0.2003893043745518,
+        "precision": 0.230162777015101,
+        "recall": 0.6077050538525269,
+        "tp": 29340,
+        "fp": 98135,
+        "fn": 18940,
+        "tn": 182001
+      }
+    },
+    {
+      "image": "cju6z2616wqbk07555bvnuyr1.jpg",
+      "time_sec": 0.06083035469055176,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            260,
+            261,
+            431,
+            489
+          ],
+          "confidence": 0.9195148348808289,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6647089487402259,
+        "iou": 0.4978007963979908,
+        "precision": 0.6389724059597782,
+        "recall": 0.6926057358053302,
+        "tp": 19127,
+        "fp": 10807,
+        "fn": 8489,
+        "tn": 255751
+      }
+    },
+    {
+      "image": "cju76lsehyia10987u54vn8rb.jpg",
+      "time_sec": 0.06230497360229492,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            339,
+            168,
+            498,
+            333
+          ],
+          "confidence": 0.5434437990188599,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7849225916794385,
+        "iou": 0.6459856683240713,
+        "precision": 0.6749302876351274,
+        "recall": 0.9377454622651523,
+        "tp": 17669,
+        "fp": 8510,
+        "fn": 1173,
+        "tn": 312260
+      }
+    },
+    {
+      "image": "cju7787c5yy3l080159mwqsnj.jpg",
+      "time_sec": 0.05966472625732422,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            415,
+            180,
+            568,
+            364
+          ],
+          "confidence": 0.8855854272842407,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6975754792235732,
+        "iou": 0.5355976243504084,
+        "precision": 0.6346323011963406,
+        "recall": 0.7743787903182525,
+        "tp": 14429,
+        "fp": 8307,
+        "fn": 4204,
+        "tn": 302720
+      }
+    },
+    {
+      "image": "cju77b3wyz4160755qis4ljsb.jpg",
+      "time_sec": 0.06358504295349121,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            218,
+            293,
+            348,
+            449
+          ],
+          "confidence": 0.8969454765319824,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7627241043674841,
+        "iou": 0.6164543470537481,
+        "precision": 0.6377526909950119,
+        "recall": 0.9486098094345518,
+        "tp": 12146,
+        "fp": 6899,
+        "fn": 658,
+        "tn": 282927
+      }
+    },
+    {
+      "image": "cju77re6fz5bb0817vp9redjg.jpg",
+      "time_sec": 0.05752706527709961,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            113,
+            216,
+            274,
+            428
+          ],
+          "confidence": 0.8416489958763123,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6268500221801024,
+        "iou": 0.45650513950073424,
+        "precision": 0.5477096546863989,
+        "recall": 0.7327236730461016,
+        "tp": 15544,
+        "fp": 12836,
+        "fn": 5670,
+        "tn": 200740
+      }
+    },
+    {
+      "image": "cju77t0razbvm080106o56289.jpg",
+      "time_sec": 0.0661478042602539,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            0,
+            80,
+            437,
+            528
+          ],
+          "confidence": 0.6490700840950012,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7737369148670665,
+        "iou": 0.6309713830969553,
+        "precision": 0.7334123663659513,
+        "recall": 0.8187537091988131,
+        "tp": 137960,
+        "fp": 50147,
+        "fn": 30540,
+        "tn": 82313
+      }
+    },
+    {
+      "image": "cju7agj961l2r0818z29iq8yn.jpg",
+      "time_sec": 0.06046032905578613,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            313,
+            188,
+            455,
+            369
+          ],
+          "confidence": 0.7345273494720459,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.8428906511783759,
+        "iou": 0.7284451137109541,
+        "precision": 0.8080003426270932,
+        "recall": 0.8809301456854688,
+        "tp": 18866,
+        "fp": 4483,
+        "fn": 2550,
+        "tn": 303761
+      }
+    },
+    {
+      "image": "cju7apr0c1qqm0755s7msqot4.jpg",
+      "time_sec": 0.06250715255737305,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            248,
+            166,
+            448,
+            471
+          ],
+          "confidence": 0.8864281177520752,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7212576303748308,
+        "iou": 0.5640367031759879,
+        "precision": 0.6249216946179592,
+        "recall": 0.8527084452693792,
+        "tp": 34915,
+        "fp": 20956,
+        "fn": 6031,
+        "tn": 247618
+      }
+    },
+    {
+      "image": "cju7d5m0p23kn09871rk7pu3v.jpg",
+      "time_sec": 0.07834553718566895,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            101,
+            25,
+            563,
+            520
+          ],
+          "confidence": 0.3692387640476227,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            144,
+            173,
+            420,
+            531
+          ],
+          "confidence": 0.3567151725292206,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.659539854420124,
+        "iou": 0.4920249636626164,
+        "precision": 0.5197814839026813,
+        "recall": 0.9020940888822437,
+        "tp": 102569,
+        "fp": 94762,
+        "fn": 11132,
+        "tn": 90490
+      }
+    },
+    {
+      "image": "cju7d7tly27h408016fyp5nr7.jpg",
+      "time_sec": 0.06066250801086426,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            167,
+            104,
+            396,
+            428
+          ],
+          "confidence": 0.7163876295089722,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.643850852058513,
+        "iou": 0.4747640427572594,
+        "precision": 0.5460169776029926,
+        "recall": 0.7843970328181338,
+        "tp": 34155,
+        "fp": 28398,
+        "fn": 9388,
+        "tn": 206843
+      }
+    },
+    {
+      "image": "cju7dda8w2br20818zhsuz8s7.jpg",
+      "time_sec": 0.05993342399597168,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            153,
+            127,
+            532,
+            525
+          ],
+          "confidence": 0.9060690999031067,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.8161870403884003,
+        "iou": 0.6894560781427711,
+        "precision": 0.722150200065871,
+        "recall": 0.9383809870697505,
+        "tp": 103053,
+        "fp": 39650,
+        "fn": 6767,
+        "tn": 149450
+      }
+    },
+    {
+      "image": "cju7ddtz729960801uazp1knc.jpg",
+      "time_sec": 0.06431794166564941,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            198,
+            265,
+            461,
+            528
+          ],
+          "confidence": 0.5804491639137268,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            154,
+            50,
+            618,
+            528
+          ],
+          "confidence": 0.49928975105285645,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.4262093030034269,
+        "iou": 0.27081701767382793,
+        "precision": 0.27887727634346493,
+        "recall": 0.9035680867216327,
+        "tp": 51179,
+        "fp": 132339,
+        "fn": 5462,
+        "tn": 139436
+      }
+    },
+    {
+      "image": "cju7dz5yy2i7z0801ausi7rna.jpg",
+      "time_sec": 0.06010842323303223,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            266,
+            206,
+            378,
+            329
+          ],
+          "confidence": 0.5671993494033813,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.8135019593872461,
+        "iou": 0.6856327878696893,
+        "precision": 0.7015899838697288,
+        "recall": 0.9678923386669492,
+        "tp": 9134,
+        "fp": 3885,
+        "fn": 303,
+        "tn": 314129
+      }
+    },
+    {
+      "image": "cju7ecl9i2i060987xawjp4l0.jpg",
+      "time_sec": 0.05492758750915527,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            92,
+            227,
+            437,
+            529
+          ],
+          "confidence": 0.729993462562561,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7217910889006385,
+        "iou": 0.564689451491807,
+        "precision": 0.645223260116077,
+        "recall": 0.8189781963617597,
+        "tp": 63479,
+        "fp": 34904,
+        "fn": 14031,
+        "tn": 216624
+      }
+    },
+    {
+      "image": "cju7fmvpk2q170987v6i3ola8.jpg",
+      "time_sec": 0.06400203704833984,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            46,
+            100,
+            298,
+            446
+          ],
+          "confidence": 0.8011343479156494,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7494627963725098,
+        "iou": 0.5993126747437092,
+        "precision": 0.6704329241275054,
+        "recall": 0.8496143746593781,
+        "tp": 51445,
+        "fp": 25289,
+        "fn": 9106,
+        "tn": 243380
+      }
+    },
+    {
+      "image": "cju7fnfv02tt90801djnix9m8.jpg",
+      "time_sec": 0.055002689361572266,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            217,
+            187,
+            308,
+            295
+          ],
+          "confidence": 0.8716713190078735,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7734592252473647,
+        "iou": 0.6306021301275968,
+        "precision": 0.649012372476666,
+        "recall": 0.9569531124979996,
+        "tp": 5980,
+        "fp": 3234,
+        "fn": 269,
+        "tn": 318933
+      }
+    },
+    {
+      "image": "cju7fpfzq2wyf0818xxd1oziv.jpg",
+      "time_sec": 0.06177830696105957,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            156,
+            164,
+            425,
+            528
+          ],
+          "confidence": 0.839827299118042,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6344599352203915,
+        "iou": 0.4646219847989522,
+        "precision": 0.5662129723887444,
+        "recall": 0.7214135882531905,
+        "tp": 45053,
+        "fp": 34516,
+        "fn": 17398,
+        "tn": 205133
+      }
+    },
+    {
+      "image": "cju7frtqu2xa20818wq8r9fzf.jpg",
+      "time_sec": 0.07124018669128418,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            125,
+            55,
+            563,
+            531
+          ],
+          "confidence": 0.4873979389667511,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            132,
+            192,
+            377,
+            528
+          ],
+          "confidence": 0.4467054307460785,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.48144444397162517,
+        "iou": 0.317041047369247,
+        "precision": 0.3204388906511986,
+        "recall": 0.9676365440208002,
+        "tp": 56569,
+        "fp": 119967,
+        "fn": 1892,
+        "tn": 150261
+      }
+    },
+    {
+      "image": "cju83qd0yjyht0817ktkfl268.jpg",
+      "time_sec": 0.06346583366394043,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            0,
+            40,
+            442,
+            484
+          ],
+          "confidence": 0.6416943073272705,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7898586871318848,
+        "iou": 0.6526995473444893,
+        "precision": 0.6532447765324477,
+        "recall": 0.9987228707984016,
+        "tp": 127467,
+        "fp": 67662,
+        "fn": 163,
+        "tn": 108440
+      }
+    },
+    {
+      "image": "cju83rcnzkbsj0755x5anfrcg.jpg",
+      "time_sec": 0.06582927703857422,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            206,
+            192,
+            431,
+            395
+          ],
+          "confidence": 0.8985966444015503,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6014270173417803,
+        "iou": 0.43002905447141454,
+        "precision": 0.5421533846730697,
+        "recall": 0.6752523619642922,
+        "tp": 18797,
+        "fp": 15874,
+        "fn": 9040,
+        "tn": 258877
+      }
+    },
+    {
+      "image": "cju83yddek68q0850d2x7zfkm.jpg",
+      "time_sec": 0.06213212013244629,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            109,
+            188,
+            362,
+            520
+          ],
+          "confidence": 0.9051313400268555,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6945279053475519,
+        "iou": 0.5320128313676855,
+        "precision": 0.6371010353445198,
+        "recall": 0.7633330481649414,
+        "tp": 44613,
+        "fp": 25412,
+        "fn": 13832,
+        "tn": 245181
+      }
+    },
+    {
+      "image": "cju843yjskhq30818qre4rwm2.jpg",
+      "time_sec": 0.06066751480102539,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            321,
+            85,
+            427,
+            304
+          ],
+          "confidence": 0.528308093547821,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5386575422248108,
+        "iou": 0.36860459323469336,
+        "precision": 0.5143552311435523,
+        "recall": 0.5653702147168946,
+        "tp": 7399,
+        "fp": 6986,
+        "fn": 5688,
+        "tn": 218966
+      }
+    },
+    {
+      "image": "cju847pxykriq0755268ktrk2.jpg",
+      "time_sec": 0.08238601684570312,
+      "detections": 3,
+      "yolo_detections": 3,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            422,
+            284,
+            546,
+            420
+          ],
+          "confidence": 0.807761549949646,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            150,
+            2,
+            300,
+            175
+          ],
+          "confidence": 0.5010379552841187,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            154,
+            26,
+            606,
+            531
+          ],
+          "confidence": 0.36238858103752136,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.48373714904106296,
+        "iou": 0.3190325138778747,
+        "precision": 0.35396954314720813,
+        "recall": 0.7637231852100644,
+        "tp": 52299,
+        "fp": 95451,
+        "fn": 16180,
+        "tn": 157856
+      }
+    },
+    {
+      "image": "cju849c23kgnk0817cgv2hw1e.jpg",
+      "time_sec": 0.05615544319152832,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            64,
+            176,
+            277,
+            398
+          ],
+          "confidence": 0.9122900366783142,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6719286895262742,
+        "iou": 0.5059432307792235,
+        "precision": 0.5437326942317984,
+        "recall": 0.8792234178643992,
+        "tp": 23368,
+        "fp": 19609,
+        "fn": 3210,
+        "tn": 284095
+      }
+    },
+    {
+      "image": "cju85mpuglq8k0818d2it6hzb.jpg",
+      "time_sec": 0.05695319175720215,
+      "detections": 1,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            147,
+            114,
+            615,
+            546
+          ],
+          "confidence": 0.7214874625205994,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            95,
+            0,
+            375,
+            419
+          ],
+          "confidence": 0.2679970860481262,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.40382871181634866,
+        "iou": 0.25299835600719384,
+        "precision": 0.275237066378586,
+        "recall": 0.7579413611873203,
+        "tp": 45860,
+        "fp": 120760,
+        "fn": 14646,
+        "tn": 154524
+      }
+    },
+    {
+      "image": "cju885ikhnmkn09878s2lqtuh.jpg",
+      "time_sec": 0.061354637145996094,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            172,
+            106,
+            368,
+            326
+          ],
+          "confidence": 0.8885351419448853,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7789075630252101,
+        "iou": 0.63787764090565,
+        "precision": 0.6715531190378439,
+        "recall": 0.9271163271430001,
+        "tp": 27807,
+        "fp": 13600,
+        "fn": 2186,
+        "tn": 258507
+      }
+    },
+    {
+      "image": "cju886ryxnsl50801r93jai7q.jpg",
+      "time_sec": 0.0661766529083252,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            218,
+            144,
+            429,
+            441
+          ],
+          "confidence": 0.389675110578537,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5864543671397254,
+        "iou": 0.4148818074964085,
+        "precision": 0.571807852401845,
+        "recall": 0.6018709295441089,
+        "tp": 25414,
+        "fp": 19031,
+        "fn": 16811,
+        "tn": 268404
+      }
+    },
+    {
+      "image": "cju888fr7nveu0818r9uwtiit.jpg",
+      "time_sec": 0.06660962104797363,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            320,
+            110,
+            509,
+            408
+          ],
+          "confidence": 0.7681472301483154,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6924996082874326,
+        "iou": 0.529636253018934,
+        "precision": 0.66546212647672,
+        "recall": 0.721827181587477,
+        "tp": 28728,
+        "fp": 14442,
+        "fn": 11071,
+        "tn": 248389
+      }
+    },
+    {
+      "image": "cju88trl3ogi208716qvti51b.jpg",
+      "time_sec": 0.06809306144714355,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            157,
+            6,
+            540,
+            480
+          ],
+          "confidence": 0.44634148478507996,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.1338787543762668,
+        "iou": 0.07174172347602158,
+        "precision": 0.07455139465777938,
+        "recall": 0.6555980654009962,
+        "tp": 9082,
+        "fp": 112740,
+        "fn": 4771,
+        "tn": 159607
+      }
+    },
+    {
+      "image": "cju89y9h0puti0818i5yw29e6.jpg",
+      "time_sec": 0.062306880950927734,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            0,
+            126,
+            354,
+            545
+          ],
+          "confidence": 0.7121632099151611,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7532207236120141,
+        "iou": 0.6041331756765733,
+        "precision": 0.635618985050426,
+        "recall": 0.9242190199386191,
+        "tp": 90945,
+        "fp": 52136,
+        "fn": 7457,
+        "tn": 191884
+      }
+    },
+    {
+      "image": "cju89z6pqpqfx0817mfv8ixjc.jpg",
+      "time_sec": 0.04776883125305176,
+      "detections": 0,
+      "yolo_detections": 0,
+      "yolo_detections_info": [],
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 4905,
+        "tn": 325377
+      }
+    },
+    {
+      "image": "cju8a1jtvpt9m081712iwkca7.jpg",
+      "time_sec": 0.07072210311889648,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            582,
+            276,
+            725,
+            419
+          ],
+          "confidence": 0.7903576493263245,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 19489,
+        "fn": 269591,
+        "tn": 1153280
+      }
+    },
+    {
+      "image": "cju8a3nhbpwnb0850d37fo2na.jpg",
+      "time_sec": 0.056366920471191406,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            245,
+            72,
+            429,
+            232
+          ],
+          "confidence": 0.8847543597221375,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7240571251713313,
+        "iou": 0.5674682930209993,
+        "precision": 0.636035266244611,
+        "recall": 0.8403551085338944,
+        "tp": 16376,
+        "fp": 9371,
+        "fn": 3111,
+        "tn": 299558
+      }
+    },
+    {
+      "image": "cju8abobpqbir08189u01huru.jpg",
+      "time_sec": 0.05455422401428223,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            207,
+            373,
+            471,
+            547
+          ],
+          "confidence": 0.6784421801567078,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7839522053568876,
+        "iou": 0.6446721985848946,
+        "precision": 0.8287751956725393,
+        "recall": 0.7437288135593221,
+        "tp": 27425,
+        "fp": 5666,
+        "fn": 9450,
+        "tn": 299881
+      }
+    },
+    {
+      "image": "cju8aeei7q8k308173n9y4klv.jpg",
+      "time_sec": 0.060973405838012695,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            106,
+            325,
+            273,
+            517
+          ],
+          "confidence": 0.9188321828842163,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6472269868496283,
+        "iou": 0.47844463229078615,
+        "precision": 0.6058460271716756,
+        "recall": 0.6946752265861027,
+        "tp": 14716,
+        "fp": 9574,
+        "fn": 6468,
+        "tn": 289210
+      }
+    },
+    {
+      "image": "cju8amfdtqi4x09871tygrgqe.jpg",
+      "time_sec": 0.05907297134399414,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            217,
+            144,
+            430,
+            439
+          ],
+          "confidence": 0.46801483631134033,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6309052388716959,
+        "iou": 0.46081926305214377,
+        "precision": 0.6166840142249979,
+        "recall": 0.6457978518064355,
+        "tp": 28439,
+        "fp": 17677,
+        "fn": 15598,
+        "tn": 267946
+      }
+    },
+    {
+      "image": "cju8aqq8uqmoq0987hphto9gg.jpg",
+      "time_sec": 0.0501251220703125,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            230,
+            56,
+            607,
+            546
+          ],
+          "confidence": 0.6746361255645752,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5873945687584899,
+        "iou": 0.41582352422519064,
+        "precision": 0.4539777273739118,
+        "recall": 0.8318670900030868,
+        "tp": 75457,
+        "fp": 90756,
+        "fn": 15251,
+        "tn": 160332
+      }
+    },
+    {
+      "image": "cju8b1v3br45u087189kku66u.jpg",
+      "time_sec": 0.05603456497192383,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            247,
+            167,
+            547,
+            546
+          ],
+          "confidence": 0.8075405955314636,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7940041425923907,
+        "iou": 0.6583804892159167,
+        "precision": 0.7304436777920411,
+        "recall": 0.8696804699813727,
+        "tp": 72834,
+        "fp": 26878,
+        "fn": 10914,
+        "tn": 231170
+      }
+    },
+    {
+      "image": "cju8b7aqtr4a00987coba14b7.jpg",
+      "time_sec": 0.05600404739379883,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            185,
+            11,
+            333,
+            144
+          ],
+          "confidence": 0.8440735340118408,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.7144090878894572,
+        "iou": 0.5557048367093841,
+        "precision": 0.5792308520952278,
+        "recall": 0.9318890814558058,
+        "tp": 10754,
+        "fp": 7812,
+        "fn": 786,
+        "tn": 310308
+      }
+    },
+    {
+      "image": "cju8bssulrrcy0987h1vq5060.jpg",
+      "time_sec": 0.051971435546875,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            53,
+            115,
+            402,
+            531
+          ],
+          "confidence": 0.4884265065193176,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5037852438956278,
+        "iou": 0.33670650676331454,
+        "precision": 0.34570464934775336,
+        "recall": 0.928243989147722,
+        "tp": 49610,
+        "fp": 93894,
+        "fn": 3835,
+        "tn": 143649
+      }
+    },
+    {
+      "image": "cju8c2rqzs5t80850d0zky5dy.jpg",
+      "time_sec": 0.053884267807006836,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            125,
+            12,
+            585,
+            477
+          ],
+          "confidence": 0.43324193358421326,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5875190456966493,
+        "iou": 0.41594829573218517,
+        "precision": 0.4228982803792633,
+        "recall": 0.9619915773761928,
+        "tp": 90230,
+        "fp": 123131,
+        "fn": 3565,
+        "tn": 84424
+      }
+    },
+    {
+      "image": "cju8c5mxls96t0850wvkvsity.jpg",
+      "time_sec": 0.05312037467956543,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            378,
+            252,
+            598,
+            520
+          ],
+          "confidence": 0.8766754865646362,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.537069000120419,
+        "iou": 0.3671184766503869,
+        "precision": 0.6137426990000305,
+        "recall": 0.47742518673581047,
+        "tp": 20070,
+        "fp": 12631,
+        "fn": 21968,
+        "tn": 268710
+      }
+    },
+    {
+      "image": "cju8cj10qsrau0871o2dr6ai1.jpg",
+      "time_sec": 0.053029537200927734,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            172,
+            44,
+            350,
+            231
+          ],
+          "confidence": 0.9476158022880554,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.732485820457657,
+        "iou": 0.577891618318726,
+        "precision": 0.6746892451810484,
+        "recall": 0.8011122994652407,
+        "tp": 18726,
+        "fp": 9029,
+        "fn": 4649,
+        "tn": 297256
+      }
+    },
+    {
+      "image": "cjyzjzssvd8pq0838f4nolj5l.jpg",
+      "time_sec": 0.04104137420654297,
+      "detections": 0,
+      "yolo_detections": 0,
+      "yolo_detections_info": [],
+      "metrics": {
+        "dice": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 14198,
+        "tn": 400522
+      }
+    },
+    {
+      "image": "cjyzk8qieoboa0848ogj51wwm.jpg",
+      "time_sec": 0.061264753341674805,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            76,
+            75,
+            609,
+            479
+          ],
+          "confidence": 0.553398847579956,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.850895932229223,
+        "iou": 0.7404863981379269,
+        "precision": 0.8227243339861948,
+        "recall": 0.8810652303400245,
+        "tp": 173065,
+        "fp": 37291,
+        "fn": 23362,
+        "tn": 181002
+      }
+    },
+    {
+      "image": "cjyzu9th0qt4r0a46pyl4zik0.jpg",
+      "time_sec": 0.05791640281677246,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            48,
+            105,
+            270,
+            409
+          ],
+          "confidence": 0.3390922248363495,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.5770568569402389,
+        "iou": 0.4055375365872953,
+        "precision": 0.4169906782280499,
+        "recall": 0.9365682548962292,
+        "tp": 25632,
+        "fp": 35837,
+        "fn": 1736,
+        "tn": 351515
+      }
+    },
+    {
+      "image": "cjyzurzvohqnr0794es1itzek.jpg",
+      "time_sec": 0.0667269229888916,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            323,
+            140,
+            562,
+            494
+          ],
+          "confidence": 0.9101057052612305,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            123,
+            86,
+            289,
+            233
+          ],
+          "confidence": 0.6673793196678162,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.6387192173549542,
+        "iou": 0.4692046089961592,
+        "precision": 0.5161804302007805,
+        "recall": 0.8375494976601107,
+        "tp": 51186,
+        "fp": 47977,
+        "fn": 9928,
+        "tn": 305629
+      }
+    },
+    {
+      "image": "ck2bxlujamu330725szlc2jdu.jpg",
+      "time_sec": 0.06922793388366699,
+      "detections": 2,
+      "yolo_detections": 2,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            199,
+            233,
+            494,
+            555
+          ],
+          "confidence": 0.4453325867652893,
+          "class_id": 0
+        },
+        {
+          "bbox": [
+            353,
+            383,
+            494,
+            560
+          ],
+          "confidence": 0.31388261914253235,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.34973002653976387,
+        "iou": 0.21192291695549703,
+        "precision": 0.21331584309019105,
+        "recall": 0.9701085231960399,
+        "tp": 15286,
+        "fp": 56373,
+        "fn": 471,
+        "tn": 342590
+      }
+    },
+    {
+      "image": "ck2bxw18mmz1k0725litqq2mc.jpg",
+      "time_sec": 0.05943751335144043,
+      "detections": 1,
+      "yolo_detections": 1,
+      "yolo_detections_info": [
+        {
+          "bbox": [
+            0,
+            0,
+            449,
+            486
+          ],
+          "confidence": 0.32542529702186584,
+          "class_id": 0
+        }
+      ],
+      "metrics": {
+        "dice": 0.615779136460624,
+        "iou": 0.4448561300297922,
+        "precision": 0.45010540775152386,
+        "recall": 0.974453760687291,
+        "tp": 94370,
+        "fp": 115292,
+        "fn": 2474,
+        "tn": 104664
+      }
+    }
+  ],
+  "broken_images": [],
+  "missing_masks": []
+}

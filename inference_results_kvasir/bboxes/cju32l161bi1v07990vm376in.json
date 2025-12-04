@@ -1,0 +1,20 @@
+{
+  "image_name": "cju32l161bi1v07990vm376in",
+  "image_size": [
+    529,
+    622
+  ],
+  "num_detections": 1,
+  "detections": [
+    {
+      "bbox": [
+        541,
+        198,
+        622,
+        390
+      ],
+      "confidence": 0.6715682148933411,
+      "class_id": 0
+    }
+  ]
+}

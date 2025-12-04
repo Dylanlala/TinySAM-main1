@@ -1,0 +1,33 @@
+# Training configuration for YOLO (frozen) + TinySAM on Kvasir-SEG
+
+data_dir: /home/huangmanling/huangmanling/yolo_sam/TinySAM-main/Kvasir-SEG
+img_size: 1024
+batch_size: 2
+val_batch_size: 2
+num_epochs: 120
+learning_rate: 5.0e-5
+weight_decay: 1.0e-4
+device: cuda:0
+num_workers: 6
+save_dir: /home/huangmanling/huangmanling/yolo_sam/TinySAM-main/results_yolo_frozen_tinysam_kvasir
+yolo_weights: /home/huangmanling/ultralytics/runs/detect/train15/weights/best.pt
+sam_type: vit_t
+sam_weights: /home/huangmanling/huangmanling/yolo_sam/TinySAM-main/weights/tinysam_42.3.pth
+warmup_epochs: 10
+patience: 20
+min_delta: 0.001
+val_interval: 1
+
+# Detection prompt settings
+detect_conf: 0.4
+detect_iou: 0.6
+max_detections: 5
+use_center_point: true
+use_box_prompt: true
+cache_detections: true
+
+# Dataset split configuration
+split_seed: 1337
+split_ratio: [0.8, 0.1, 0.1]
+index_file: null
+

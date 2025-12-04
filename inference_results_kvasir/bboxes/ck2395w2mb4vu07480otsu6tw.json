@@ -1,0 +1,20 @@
+{
+  "image_name": "ck2395w2mb4vu07480otsu6tw",
+  "image_size": [
+    576,
+    720
+  ],
+  "num_detections": 1,
+  "detections": [
+    {
+      "bbox": [
+        357,
+        271,
+        598,
+        557
+      ],
+      "confidence": 0.9174641966819763,
+      "class_id": 0
+    }
+  ]
+}

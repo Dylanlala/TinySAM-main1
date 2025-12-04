@@ -1,0 +1,13 @@
+{
+  "model": "runs/detect/yolo11n_kvasir/weights/best.pt",
+  "test_images_dir": "Kvasir-SEG/test/images",
+  "conf_threshold": 0.25,
+  "iou_threshold": 0.45,
+  "timestamp": "2025-11-22T17:43:07.106380",
+  "metrics": {
+    "map50": 0.9102216526627843,
+    "map50_95": 0.7330085721112499,
+    "precision": 0.9289481115576184,
+    "recall": 0.8171614519540988
+  }
+}

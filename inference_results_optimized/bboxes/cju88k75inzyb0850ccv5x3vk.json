@@ -1,0 +1,40 @@
+{
+  "image_name": "cju88k75inzyb0850ccv5x3vk",
+  "image_size": [
+    531,
+    549
+  ],
+  "num_detections": 3,
+  "detections": [
+    {
+      "bbox": [
+        207,
+        182,
+        389,
+        377
+      ],
+      "confidence": 0.7070470452308655,
+      "class_id": 0
+    },
+    {
+      "bbox": [
+        0,
+        222,
+        266,
+        531
+      ],
+      "confidence": 0.5962755084037781,
+      "class_id": 0
+    },
+    {
+      "bbox": [
+        263,
+        2,
+        485,
+        253
+      ],
+      "confidence": 0.33770671486854553,
+      "class_id": 0
+    }
+  ]
+}

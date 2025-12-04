@@ -1,0 +1,1015 @@
+{
+  "summary": {
+    "total_gt_polyps": 112,
+    "total_pred_polyps": 0,
+    "total_tp": 0,
+    "total_fp": 0,
+    "total_fn": 112,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "detection_rate": 0.0
+  },
+  "per_image_stats": [
+    {
+      "image": "cju0qx73cjw570799j4n5cjze.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju0t4oil7vzk099370nun5h9.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju16b6ynq8e40988m8vx0xnj.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju16d65tzw9d0799ouslsw25.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju17otoe119u0799nqcbl8n1.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju1aqqv02qwz0878a5cyhr67.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju1bhnfitmge0835ynls0l6b.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju1csmlc4ht10799b8ymmghg.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju1dfeupuzlw0835gnxip369.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju1fjsb4sipq09931lvd8e41.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju1fm3id6gl50801r3fok20c.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju1g20bdwq6u0835e16xugcd.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju2hlm19vjjf0801o69qnber.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju2hqt33lmra0988fr5ijv8j.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju2hx006vidl0799igm81vmh.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju2nfnvxzdkd0878399axlco.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju2pkwt3r8b90988v2ywq1px.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju2r11x7sdgx0988o8ule0wl.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju2rn0hasxri0835nfy3buay.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju2rz4k434s70855wwx3ddtx.jpg",
+      "gt_count": 2,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju2trtjf4qjd0878a2zle9v9.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju2uwz9f5yf1085506cfamfx.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju2xf8e5y2wm08359vcgk09b.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju2xjz2ju8pe0993ysv9wg17.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju2y40d8ulqo0993q0adtgtb.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju2zxja9w1eh09933609ho9z.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju30ywtc0oar0835bp2en7ec.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju323ypb1fbb0988gx5rzudb.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju32a52lb9rc0799xi40qs00.jpg",
+      "gt_count": 3,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju32l161bi1v07990vm376in.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju32qr9tbvsj08013pkpjenq.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju32upim1z7u0988l883nqp6.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju33eqwbcch208012jikwdky.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju34uhepd3dd0799hs8782ad.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju34zivp3fq80988opxbaqyn.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju3tsh4lfsok0987w6x3a0v1.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju3ttznuftyf09875t11850w.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju3uhb79gcgr0871orbrbi3x.jpg",
+      "gt_count": 10,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 10,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju3wstckialg0871xs0vevsj.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju41nz76lcxu0755cya2qefx.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju41p90plcsx08018cnzpndc.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju42wamblrqn098798r2yyok.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju439oazm2fu0871ma0vvrft.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju43jcqim2cp08172dvjvyui.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju45ofd9ne1j0801ri8dup7t.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju5boicjagt20871b1fotkh4.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju5es375cnzy0801nkq35ffs.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju5fb86jd1jp0755b1ukbhq5.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju5gucasds9d0801019axylx.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju5hi52odyf90817prvcwg45.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju5k3j3uf6de0817hszzfr7n.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju5k503sfa5f0871lx0rpu5y.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju5k7r0yf98c09878csbxb4d.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju5u6wf0kh1t0755bg1ssixv.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju5wkonqlrl409877y8zvnub.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju5xq3tdm9fn0987pbedxdg5.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju6vqarjv7yo0987q4b1btk1.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju6vta3kvazg0817qbeppjtm.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju6w733bveoz0817e600tw72.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju6xa0qmvzun0818xjukgncj.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju76l27oyrw907551ri2a7fl.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju76o55nymqd0871h31sph9w.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju772304yw5t0818vbw8kkjf.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju773hsyyosz0817pk1e7sjq.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju7787c5yy3l080159mwqsnj.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju7afqon1ip40850ue2308b6.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju7ahtkb1jr90801jck4kbds.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju7alcgr1lsr0871riqk84z7.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju7bd1qu1mx409877xjxibox.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju7dda8w2br20818zhsuz8s7.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju7f5ghb2r5s0801chwkxxh9.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju7f900s2o0k08175gl1giid.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju8402x1kcy70801t6kz6bdi.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju843yjskhq30818qre4rwm2.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju84aoa3ktwn0755pfl4gfwd.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju84gpefknwm098714oq8q61.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju858eswlepn0871pzvdrhj1.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju85fc11ljr40818edpb0inh.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju85je7vlht70817c9jcjwi4.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju85l4yjlops0801fvmnwptf.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju87li0zn3yb0817kbwgjiz8.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju886ryxnsl50801r93jai7q.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju88itqbny720987hxizbj5y.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju88k75inzyb0850ccv5x3vk.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju88msmoo3470817m441j4sg.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju88trl3ogi208716qvti51b.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju88vx2uoocy075531lc63n3.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju88z8bson4h0871nnd7fdxo.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju8arof2qpf20850ifr1bnqj.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju8b4ja9r2s808509d45ma86.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju8b542nr81x0871uxnkm9ih.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju8bop5jrsid08716i24fqda.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju8bpctzrqkr0850zeldv9kt.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju8c2rqzs5t80850d0zky5dy.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju8c6hnxsdvr0801wn0vrsa6.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju8cgi2kspp308011nxdtjp6.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cju8dqkrqu83i0818ev74qpxq.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cjyzl833ndne80838pzuq6ila.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "cjyzuio1qgh040763k56deohv.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "image": "ck2395w2mb4vu07480otsu6tw.jpg",
+      "gt_count": 1,
+      "pred_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    }
+  ]
+}
