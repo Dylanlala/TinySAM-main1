@@ -7,6 +7,8 @@ import os
 from pathlib import Path
 from collections import Counter, defaultdict
 
+#我尝试一下
+
 def analyze_all_coco(base_dir="all_coco"):
     base_path = Path(base_dir)
     
