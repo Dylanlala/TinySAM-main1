@@ -8,7 +8,7 @@ from pathlib import Path
 from collections import Counter, defaultdict
 
 #我尝试一下，这是服务器上的
-print("本地尝试hhhh")
+print("本地尝试hhhh--本地add_feature1合并到master分支上")
 def analyze_all_coco(base_dir="all_coco"):
     base_path = Path(base_dir)
     
